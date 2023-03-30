@@ -1,0 +1,82 @@
+00:00:00.011743 main     VirtualBox COM Server 6.1.26 r145957 win.amd64 (Jul 28 2021 17:15:09) release log
+00:00:00.011751 main     Log opened 2021-09-13T06:42:53.727552400Z
+00:00:00.011753 main     Build Type: release
+00:00:00.011821 main     OS Product: Windows 10
+00:00:00.011825 main     OS Release: 10.0.19043
+00:00:00.011827 main     OS Service Pack: 
+00:00:00.079587 main     DMI Product Name: Swift SF314-58
+00:00:00.111608 main     DMI Product Version: V1.08
+00:00:00.112295 main     Firmware type: UEFI
+00:00:00.113236 main     Secure Boot: VERR_PRIVILEGE_NOT_HELD
+00:00:00.114604 main     Host RAM: 8030MB (7.8GB) total, 2994MB (2.9GB) available
+00:00:00.114623 main     Executable: C:\Program Files\Oracle\VirtualBox\VBoxSVC.exe
+00:00:00.114626 main     Process ID: 3412
+00:00:00.114627 main     Package type: WINDOWS_64BITS_GENERIC
+00:00:00.362040          VirtualBox: object creation starts
+00:00:00.362878          Home directory: 'C:\Users\hhane\.VirtualBox'
+00:00:00.363128          Installed Drivers:
+00:00:00.397827            C:\WINDOWS\system32\DRIVERS\VBoxDrv.sys (Version: 6.1.26.45957)
+00:00:00.399003            C:\WINDOWS\system32\DRIVERS\VBoxUSBMon.sys (Version: 6.1.26.45957)
+00:00:00.399931            C:\WINDOWS\system32\DRIVERS\VBoxNetAdp6.sys (Version: 6.1.26.45957)
+00:00:00.400825            C:\WINDOWS\system32\DRIVERS\VBoxNetLwf.sys (Version: 6.1.26.45957)
+00:00:00.403848          Loading settings file "C:\Users\hhane\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:00.411654          usbLibGetDevices: Starting USB device enumeration
+00:00:00.440032          Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&10c3f119&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 5
+00:00:00.440301          Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&10c3f119&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 7
+00:00:00.440492          Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&10c3f119&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 10
+00:00:00.446352          usbLibGetDevices: Found 3 USB devices, 0 captured
+00:00:00.446849          USB: Unknown USB device detected (idVendor: 0x04f2, idProduct: 0xb5c5)
+00:00:00.447152          USB: Unknown USB device detected (idVendor: 0x1c7a, idProduct: 0x0570)
+00:00:00.447242          USB: Unknown USB device detected (idVendor: 0x8087, idProduct: 0x0026)
+00:00:00.628828          netIfIsWireless: CreateFile on '\\.\{F2EA5BD2-2032-4F7D-9A3B-F0061B67C9B1}' failed with rcWin=2 (0x2) - ignoring
+00:00:00.631919          netIfIsWireless: CreateFile on '\\.\{F8820F77-9231-44B9-9204-D70E2A992D62}' failed with rcWin=2 (0x2) - ignoring
+00:00:00.635992          HostDnsMonitor: initializing
+00:00:00.643262          HostDnsMonitor: updating information
+00:00:00.643308          HostDnsMonitor: old information
+00:00:00.643309            no server entries
+00:00:00.643310            no domain set
+00:00:00.643310            no search string entries
+00:00:00.643311          HostDnsMonitor: new information
+00:00:00.643311            server 1: 10.94.0.1
+00:00:00.643312            no domain set
+00:00:00.643313            no search string entries
+00:00:00.717999          VD: VDInit finished with VINF_SUCCESS
+00:00:00.719594          Loading settings file "C:\Users\hhane\VirtualBox VMs\Xubuntu\Xubuntu.vbox" with version "1.16-windows"
+00:00:00.721640          Loading settings file "C:\Users\hhane\VirtualBox VMs\Kali Linux\Kali Linux.vbox" with version "1.16-windows"
+00:00:00.722503          Loading settings file "C:\Users\hhane\VirtualBox VMs\Ubuntu\Ubuntu.vbox" with version "1.16-windows"
+00:00:00.723256          Loading settings file "C:\Users\hhane\VirtualBox VMs\Ubuntu 20\Ubuntu 20.vbox" with version "1.16-windows"
+00:00:00.724253          VirtualBox: object created
+00:00:02.711391          Saving settings file "C:\Users\hhane\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:02.727806          Saving settings file "C:\Users\hhane\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:04.608052          Launched VM: 66627696 pid: 18756 (0x4944) frontend: GUI/Qt name: Ubuntu 20
+00:00:13.215384          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={70401eef-c8e9-466b-9660-45cb3e9979e4} aComponent={ExtPackManagerWrap} aText={No extension pack by the name 'Oracle VM VirtualBox Extension Pack' was found}, preserve=false aResultDetail=0
+00:00:25.387225          Saving settings file "C:\Users\hhane\VirtualBox VMs\Ubuntu 20\Ubuntu 20.vbox" with version "1.16-windows"
+00:06:22.804309          netIfIsWireless: CreateFile on '\\.\{F2EA5BD2-2032-4F7D-9A3B-F0061B67C9B1}' failed with rcWin=2 (0x2) - ignoring
+00:06:22.808242          netIfIsWireless: CreateFile on '\\.\{F8820F77-9231-44B9-9204-D70E2A992D62}' failed with rcWin=2 (0x2) - ignoring
+00:06:22.843307          netIfIsWireless: CreateFile on '\\.\{F2EA5BD2-2032-4F7D-9A3B-F0061B67C9B1}' failed with rcWin=2 (0x2) - ignoring
+00:06:22.848331          netIfIsWireless: CreateFile on '\\.\{F8820F77-9231-44B9-9204-D70E2A992D62}' failed with rcWin=2 (0x2) - ignoring
+00:07:36.435281          netIfIsWireless: CreateFile on '\\.\{F2EA5BD2-2032-4F7D-9A3B-F0061B67C9B1}' failed with rcWin=2 (0x2) - ignoring
+00:07:36.439594          netIfIsWireless: CreateFile on '\\.\{F8820F77-9231-44B9-9204-D70E2A992D62}' failed with rcWin=2 (0x2) - ignoring
+00:07:36.469523          netIfIsWireless: CreateFile on '\\.\{F2EA5BD2-2032-4F7D-9A3B-F0061B67C9B1}' failed with rcWin=2 (0x2) - ignoring
+00:07:36.474299          netIfIsWireless: CreateFile on '\\.\{F8820F77-9231-44B9-9204-D70E2A992D62}' failed with rcWin=2 (0x2) - ignoring
+00:09:28.684887          Launched VM: 66874240 pid: 13924 (0x3664) frontend: GUI/Qt name: Ubuntu
+00:09:34.725359          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={70401eef-c8e9-466b-9660-45cb3e9979e4} aComponent={ExtPackManagerWrap} aText={No extension pack by the name 'Oracle VM VirtualBox Extension Pack' was found}, preserve=false aResultDetail=0
+00:09:35.141714          ERROR [COM]: aRC=VBOX_E_IPRT_ERROR (0x80bb0005) aIID={85632c68-b5bb-4316-a900-5eb28d3413df} aComponent={SessionMachine} aText={Saved screenshot data is not available (VERR_NOT_SUPPORTED)}, preserve=false aResultDetail=-37
+00:09:35.463230          netIfIsWireless: CreateFile on '\\.\{F2EA5BD2-2032-4F7D-9A3B-F0061B67C9B1}' failed with rcWin=2 (0x2) - ignoring
+00:09:35.468342          netIfIsWireless: CreateFile on '\\.\{F8820F77-9231-44B9-9204-D70E2A992D62}' failed with rcWin=2 (0x2) - ignoring
+00:12:56.613736          Saving settings file "C:\Users\hhane\VirtualBox VMs\Ubuntu\Ubuntu.vbox" with version "1.16-windows"
+00:13:25.309739          Saving settings file "C:\Users\hhane\VirtualBox VMs\Ubuntu\Ubuntu.vbox" with version "1.16-windows"
+00:13:51.138866          Saving settings file "C:\Users\hhane\VirtualBox VMs\Ubuntu 20\Ubuntu 20.vbox" with version "1.16-windows"
+00:13:51.201149          Saving settings file "C:\Users\hhane\VirtualBox VMs\Ubuntu 20\Ubuntu 20.vbox" with version "1.16-windows"
+00:13:53.711315          Saving settings file "C:\Users\hhane\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:13:53.716532          Saving settings file "C:\Users\hhane\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:13:53.721523          Saving settings file "C:\Users\hhane\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:13:59.771288 main     VirtualBox: object deletion starts
+00:13:59.773310 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Medium 'C:\Users\hhane\VirtualBox VMs\Xubuntu\Xubuntu.vdi' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+00:13:59.775305 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Medium 'C:\Users\hhane\VirtualBox VMs\Kali Linux\Kali Linux.vdi' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+00:13:59.776365 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Medium 'C:\Users\hhane\VirtualBox VMs\Ubuntu\Ubuntu.vdi' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+00:13:59.777252 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Medium 'C:\Users\hhane\VirtualBox VMs\Ubuntu 20\Ubuntu 20.vdi' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+00:13:59.780919 main     HostDnsMonitor: shutting down ...
+00:13:59.781265 main     HostDnsMonitor: shut down
+00:13:59.789767 Watcher  ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={d0a0163f-e254-4e5b-a1f2-011cf991c38d} aComponent={VirtualBoxWrap} aText={The object is not ready}, preserve=false aResultDetail=0
+00:13:59.790742 main     VirtualBox: object deleted

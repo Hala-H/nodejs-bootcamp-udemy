@@ -1,0 +1,3 @@
+C:\Users\hhane\anaconda3
+C:\JupyterLab\resources\jlab_server
+C:\Users\hhane\anaconda3\envs\fpp

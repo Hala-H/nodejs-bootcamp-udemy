@@ -1,0 +1,102 @@
+[I 2021-11-30 16:19:37.049 LabApp] JupyterLab extension loaded from C:\Users\hhane\anaconda3\lib\site-packages\jupyterlab
+[I 2021-11-30 16:19:37.049 LabApp] JupyterLab application directory is C:\Users\hhane\anaconda3\share\jupyter\lab
+[I 16:19:37.054 NotebookApp] Serving notebooks from local directory: C:\Users\hhane
+[I 16:19:37.054 NotebookApp] Jupyter Notebook 6.3.0 is running at:
+[I 16:19:37.054 NotebookApp] http://localhost:8888/?token=b2af7c8c73c1d9cfda50814b94de80004e9d5eeaa11ab4b0
+[I 16:19:37.054 NotebookApp]  or http://127.0.0.1:8888/?token=b2af7c8c73c1d9cfda50814b94de80004e9d5eeaa11ab4b0
+[I 16:19:37.055 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 16:19:37.111 NotebookApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///C:/Users/hhane/AppData/Roaming/jupyter/runtime/nbserver-14292-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8888/?token=b2af7c8c73c1d9cfda50814b94de80004e9d5eeaa11ab4b0
+     or http://127.0.0.1:8888/?token=b2af7c8c73c1d9cfda50814b94de80004e9d5eeaa11ab4b0
+[E 16:23:57.431 NotebookApp] Uncaught exception GET /api/contents/Desktop/Fall%202021/CS4083/Project/full_dataset_clean.tsv?type=file&format=text&_=1638278480149 (::1)
+    HTTPServerRequest(protocol='http', host='localhost:8888', method='GET', uri='/api/contents/Desktop/Fall%202021/CS4083/Project/full_dataset_clean.tsv?type=file&format=text&_=1638278480149', version='HTTP/1.1', remote_ip='::1')
+    Traceback (most recent call last):
+      File "C:\Users\hhane\anaconda3\lib\site-packages\tornado\web.py", line 1704, in _execute
+        result = await result
+      File "C:\Users\hhane\anaconda3\lib\site-packages\tornado\gen.py", line 234, in wrapper
+        yielded = ctx_run(next, result)
+      File "C:\Users\hhane\anaconda3\lib\site-packages\notebook\services\contents\handlers.py", line 111, in get
+        model = yield maybe_future(self.contents_manager.get(
+      File "C:\Users\hhane\anaconda3\lib\site-packages\notebook\services\contents\filemanager.py", line 444, in get
+        model = self._file_model(path, content=content, format=format)
+      File "C:\Users\hhane\anaconda3\lib\site-packages\notebook\services\contents\filemanager.py", line 371, in _file_model
+        content, format = self._read_file(os_path, format)
+      File "C:\Users\hhane\anaconda3\lib\site-packages\notebook\services\contents\fileio.py", line 312, in _read_file
+        return bcontent.decode('utf8'), 'text'
+    MemoryError
+[W 16:23:57.593 NotebookApp] Unhandled error
+[E 16:23:57.631 NotebookApp] {
+      "Host": "localhost:8888",
+      "Connection": "keep-alive",
+      "Sec-Ch-Ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"96\", \"Google Chrome\";v=\"96\"",
+      "Dnt": "1",
+      "Sec-Ch-Ua-Mobile": "?0",
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36",
+      "Accept": "application/json, text/javascript, */*; q=0.01",
+      "X-Requested-With": "XMLHttpRequest",
+      "X-Xsrftoken": "2|2afda145|f658fd4fcbc3dc9d458df58ac1308d1a|1635956506",
+      "Sec-Ch-Ua-Platform": "\"Windows\"",
+      "Sec-Fetch-Site": "same-origin",
+      "Sec-Fetch-Mode": "cors",
+      "Sec-Fetch-Dest": "empty",
+      "Referer": "http://localhost:8888/edit/Desktop/Fall%202021/CS4083/Project/full_dataset_clean.tsv",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Accept-Language": "en-US,en;q=0.9,ar;q=0.8",
+      "Cookie": "username-localhost-8890=\"2|1:0|10:1635956506|23:username-localhost-8890|44:ODhjZWU2NGUxZjcxNDE2YzgwMGE2N2RjMjUzNjRhOTU=|f7ea7526f37ce047c938f8c7705028a8d16ded19afdcc49d97ff19b1b336591b\"; _xsrf=2|2afda145|f658fd4fcbc3dc9d458df58ac1308d1a|1635956506; username-localhost-8889=\"2|1:0|10:1636489661|23:username-localhost-8889|44:MzkxMGVmMTVmZTMzNDllMDkwMTZmZTM0MWE0ZGUzNDM=|e44a089f9c9ebd208ff6c0b745ee77ff1dae4e2eabd0a40a8d413c37694cfc71\"; username-localhost-8888=\"2|1:0|10:1638278378|23:username-localhost-8888|44:NWM4NzY0M2NkNWI2NDUxMTg1NzIwOGEwZDRjM2JiZmM=|9dcc2bc6fd522b2ed8ae037a34ad7c5220a88ba3b4a4949d22bf44e4f40f41da\""
+    }
+[E 16:23:57.632 NotebookApp] 500 GET /api/contents/Desktop/Fall%202021/CS4083/Project/full_dataset_clean.tsv?type=file&format=text&_=1638278480149 (::1) 157303.070000ms referer=http://localhost:8888/edit/Desktop/Fall%202021/CS4083/Project/full_dataset_clean.tsv
+[I 16:24:06.373 NotebookApp] Kernel started: aef52548-7b5b-479c-9272-ca6f8d902b22, name: python3
+[I 16:26:06.282 NotebookApp] Saving file at /Desktop/Fall 2021/CS4083/Project/test.ipynb
+[I 16:30:06.242 NotebookApp] Saving file at /Desktop/Fall 2021/CS4083/Project/test.ipynb
+[I 16:44:41.966 NotebookApp] Saving file at /Desktop/Fall 2021/CS4083/Project/test.ipynb
+[I 16:50:06.251 NotebookApp] Saving file at /Desktop/Fall 2021/CS4083/Project/test.ipynb
+[I 16:52:06.244 NotebookApp] Saving file at /Desktop/Fall 2021/CS4083/Project/test.ipynb
+[I 16:56:06.257 NotebookApp] Saving file at /Desktop/Fall 2021/CS4083/Project/test.ipynb
+[I 17:06:23.169 NotebookApp] Saving file at /Desktop/Fall 2021/CS4083/Project/get_metadata.py
+[I 17:06:54.372 NotebookApp] Saving file at /Desktop/Fall 2021/CS4083/Project/get_metadata.py
+[I 17:08:06.261 NotebookApp] Saving file at /Desktop/Fall 2021/CS4083/Project/test.ipynb
+[I 17:09:46.716 NotebookApp] Saving file at /Desktop/Fall 2021/CS4083/Project/parse_json_lite.py
+[I 17:10:06.275 NotebookApp] Saving file at /Desktop/Fall 2021/CS4083/Project/test.ipynb
+[I 17:11:37.814 NotebookApp] Saving file at /Desktop/Fall 2021/CS4083/Project/parse_json_lite.py
+[I 17:12:06.800 NotebookApp] Saving file at /Desktop/Fall 2021/CS4083/Project/test.ipynb
+[I 17:12:13.590 NotebookApp] Saving file at /Desktop/Fall 2021/CS4083/Project/parse_json_lite.py
+[I 17:12:47.755 NotebookApp] Saving file at /Desktop/Fall 2021/CS4083/Project/parse_json_lite.py
+[I 17:14:06.779 NotebookApp] Saving file at /Desktop/Fall 2021/CS4083/Project/test.ipynb
+[I 17:17:18.417 NotebookApp] Saving file at /Desktop/Fall 2021/CS4083/Project/parse_json_lite.py
+[I 17:18:06.774 NotebookApp] Saving file at /Desktop/Fall 2021/CS4083/Project/test.ipynb
+[I 17:18:08.339 NotebookApp] Saving file at /Desktop/Fall 2021/CS4083/Project/parse_json_lite.py
+[I 17:20:06.788 NotebookApp] Saving file at /Desktop/Fall 2021/CS4083/Project/test.ipynb
+[I 17:23:18.348 NotebookApp] Saving file at /Desktop/Fall 2021/CS4083/Project/parse_json_lite.py
+[I 17:23:30.564 NotebookApp] Saving file at /Desktop/Fall 2021/CS4083/Project/parse_json_lite.py
+[I 17:24:06.803 NotebookApp] Saving file at /Desktop/Fall 2021/CS4083/Project/test.ipynb
+[I 17:25:11.037 NotebookApp] Saving file at /Desktop/Fall 2021/CS4083/Project/parse_json_lite.py
+[I 17:26:06.781 NotebookApp] Saving file at /Desktop/Fall 2021/CS4083/Project/test.ipynb
+[I 17:32:21.045 NotebookApp] Saving file at /Desktop/Fall 2021/CS4083/Project/parse_json_lite.py
+[I 17:32:33.353 NotebookApp] Saving file at /Desktop/Fall 2021/CS4083/Project/parse_json_lite.py
+[I 17:32:54.631 NotebookApp] Saving file at /Desktop/Fall 2021/CS4083/Project/parse_json_lite.py
+[I 17:33:05.397 NotebookApp] Saving file at /Desktop/Fall 2021/CS4083/Project/parse_json_lite.py
+[I 17:33:49.198 NotebookApp] Saving file at /Desktop/Fall 2021/CS4083/Project/parse_json_lite.py
+[I 17:34:06.796 NotebookApp] Saving file at /Desktop/Fall 2021/CS4083/Project/test.ipynb
+[I 17:35:53.039 NotebookApp] Saving file at /Desktop/Fall 2021/CS4083/Project/parse_json_lite.py
+[I 17:36:06.771 NotebookApp] Saving file at /Desktop/Fall 2021/CS4083/Project/test.ipynb
+[I 17:36:34.085 NotebookApp] Saving file at /Desktop/Fall 2021/CS4083/Project/parse_json_lite.py
+[I 17:38:06.774 NotebookApp] Saving file at /Desktop/Fall 2021/CS4083/Project/test.ipynb
+[I 17:41:46.246 NotebookApp] Saving file at /Desktop/Fall 2021/CS4083/Project/fields.py
+[I 17:42:06.778 NotebookApp] Saving file at /Desktop/Fall 2021/CS4083/Project/test.ipynb
+[I 17:45:24.324 NotebookApp] Saving file at /Desktop/Fall 2021/CS4083/Project/parse_json_lite.py
+[I 17:45:43.818 NotebookApp] Saving file at /Desktop/Fall 2021/CS4083/Project/parse_json_lite.py
+[I 17:46:06.773 NotebookApp] Saving file at /Desktop/Fall 2021/CS4083/Project/test.ipynb
+[I 17:48:24.899 NotebookApp] Saving file at /Desktop/Fall 2021/CS4083/Project/parse_json_lite.py
+[I 17:49:34.972 NotebookApp] Saving file at /Desktop/Fall 2021/CS4083/Project/parse_json_lite.py
+[I 17:50:06.256 NotebookApp] Saving file at /Desktop/Fall 2021/CS4083/Project/test.ipynb
+[I 17:52:06.770 NotebookApp] Saving file at /Desktop/Fall 2021/CS4083/Project/test.ipynb
+[I 17:54:06.257 NotebookApp] Saving file at /Desktop/Fall 2021/CS4083/Project/test.ipynb
+[I 17:56:06.253 NotebookApp] Saving file at /Desktop/Fall 2021/CS4083/Project/test.ipynb
+[I 17:58:06.257 NotebookApp] Saving file at /Desktop/Fall 2021/CS4083/Project/test.ipynb
+[I 18:00:06.788 NotebookApp] Saving file at /Desktop/Fall 2021/CS4083/Project/test.ipynb
+[I 19:43:47.761 NotebookApp] Starting buffering for aef52548-7b5b-479c-9272-ca6f8d902b22:a7793650c46949cf8781b52f4d2da07d
+[IPKernelApp] WARNING | Parent appears to have exited, shutting down.

@@ -1,0 +1,830 @@
+00:00:00.014572 main     VirtualBox COM Server 7.0.6 r155176 win.amd64 (Jan 11 2023 16:38:38) release log
+00:00:00.014598 main     Log opened 2023-02-20T17:07:45.584066500Z
+00:00:00.014601 main     Build Type: release
+00:00:00.014627 main     OS Product: Windows 11
+00:00:00.014632 main     OS Release: 10.0.22000
+00:00:00.014635 main     OS Service Pack: 
+00:00:00.115380 main     DMI Product Name: Swift SF314-58
+00:00:00.169143 main     DMI Product Version: V1.08
+00:00:00.169220 main     Firmware type: UEFI
+00:00:00.170970 main     Secure Boot: VERR_PRIVILEGE_NOT_HELD
+00:00:00.172063 main     Host RAM: 8030MB (7.8GB) total, 1314MB available
+00:00:00.172081 main     Executable: C:\Program Files\Oracle\VirtualBox\VBoxSVC.exe
+00:00:00.172084 main     Process ID: 1700
+00:00:00.172086 main     Package type: WINDOWS_64BITS_GENERIC
+00:00:00.426367          VirtualBox: object creation starts
+00:00:00.427487          Home directory: 'C:\Users\hhane\.VirtualBox'
+00:00:00.427985          Installed Drivers:
+00:00:00.466071            C:\WINDOWS\system32\DRIVERS\VBoxSup.sys (Version: 7.0.6.5176)
+00:00:00.467693            C:\WINDOWS\system32\DRIVERS\VBoxUSBMon.sys (Version: 7.0.6.5176)
+00:00:00.469227            C:\WINDOWS\System32\drivers\VBoxNetAdp6.sys (Version: 7.0.6.5176)
+00:00:00.470819            C:\WINDOWS\system32\DRIVERS\VBoxNetLwf.sys (Version: 7.0.6.5176)
+00:00:00.471993          Loading settings file "C:\Users\hhane\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:00.480460          usbLibGetDevices: Starting USB device enumeration
+00:00:00.483229          Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&10c3f119&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 5
+00:00:00.486214          Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&10c3f119&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 10
+00:00:00.495742          usbLibGetDevices: Found 4 USB devices, 0 captured
+00:00:00.496145          USB: Unknown USB device detected (idVendor: 0x1c7a, idProduct: 0x0570)
+00:00:00.496275          USB: Unknown USB device detected (idVendor: 0x8087, idProduct: 0x0026)
+00:00:00.778738          netIfIsWireless: CreateFile on '\\.\{F2EA5BD2-2032-4F7D-9A3B-F0061B67C9B1}' failed with rcWin=2 (0x2) - ignoring
+00:00:00.783660          netIfIsWireless: CreateFile on '\\.\{F8820F77-9231-44B9-9204-D70E2A992D62}' failed with rcWin=2 (0x2) - ignoring
+00:00:00.789724          HostDnsMonitor: initializing
+00:00:00.798288          HostDnsMonitor: updating information
+00:00:00.798321          HostDnsMonitor: old information
+00:00:00.798322            no server entries
+00:00:00.798323            no domain set
+00:00:00.798323            no search string entries
+00:00:00.798324          HostDnsMonitor: new information
+00:00:00.798324            server 1: 192.168.1.1
+00:00:00.798325            no domain set
+00:00:00.798325            no search string entries
+00:00:00.800478          VD: VDInit finished with VINF_SUCCESS
+00:00:00.802470          ERROR [COM]: aRC=E_FAIL (0x80004005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={Runtime error opening 'C:\Users\hhane\VirtualBox VMs\Xubuntu\Xubuntu.vbox' for reading VERR_PATH_NOT_FOUND (Path not found.).
+00:00:00.802485          F:\tinderbox\win-rel\src\VBox\Main\src-server\MachineImpl.cpp[1025] (long __cdecl Machine::i_registeredInit(void))}, preserve=false aResultDetail=0
+00:00:00.803025          ERROR [COM]: aRC=E_FAIL (0x80004005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={Runtime error opening 'C:\Users\hhane\VirtualBox VMs\Kali Linux\Kali Linux.vbox' for reading VERR_PATH_NOT_FOUND (Path not found.).
+00:00:00.803030          F:\tinderbox\win-rel\src\VBox\Main\src-server\MachineImpl.cpp[1025] (long __cdecl Machine::i_registeredInit(void))}, preserve=false aResultDetail=0
+00:00:00.803480          ERROR [COM]: aRC=E_FAIL (0x80004005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={Runtime error opening 'C:\Users\hhane\VirtualBox VMs\Ubuntu\Ubuntu.vbox' for reading VERR_PATH_NOT_FOUND (Path not found.).
+00:00:00.803485          F:\tinderbox\win-rel\src\VBox\Main\src-server\MachineImpl.cpp[1025] (long __cdecl Machine::i_registeredInit(void))}, preserve=false aResultDetail=0
+00:00:00.817780          Loading settings file "C:\Users\hhane\VirtualBox VMs\Ubuntu20\Ubuntu20.vbox" with version "1.19-windows"
+00:00:00.820805          VirtualBox: object created
+00:00:01.030360          Saving settings file "C:\Users\hhane\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:01.033200          Finished saving settings file "C:\Users\hhane\.VirtualBox\VirtualBox.xml"
+00:00:01.033471          Saving settings file "C:\Users\hhane\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:01.035878          Finished saving settings file "C:\Users\hhane\.VirtualBox\VirtualBox.xml"
+00:00:01.036179          Saving settings file "C:\Users\hhane\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:01.038887          Finished saving settings file "C:\Users\hhane\.VirtualBox\VirtualBox.xml"
+00:00:01.771768          ERROR [COM]: aRC=E_FAIL (0x80004005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={Runtime error opening 'C:\Users\hhane\VirtualBox VMs\Xubuntu\Xubuntu.vbox' for reading VERR_PATH_NOT_FOUND (Path not found.).
+00:00:01.771775          F:\tinderbox\win-rel\src\VBox\Main\src-server\MachineImpl.cpp[1025] (long __cdecl Machine::i_registeredInit(void))}, preserve=false aResultDetail=0
+00:00:01.772588          ERROR [COM]: aRC=E_FAIL (0x80004005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={Runtime error opening 'C:\Users\hhane\VirtualBox VMs\Xubuntu\Xubuntu.vbox' for reading VERR_PATH_NOT_FOUND (Path not found.).
+00:00:01.772594          F:\tinderbox\win-rel\src\VBox\Main\src-server\MachineImpl.cpp[1025] (long __cdecl Machine::i_registeredInit(void))}, preserve=false aResultDetail=0
+00:00:01.773884          ERROR [COM]: aRC=E_FAIL (0x80004005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={Runtime error opening 'C:\Users\hhane\VirtualBox VMs\Xubuntu\Xubuntu.vbox' for reading VERR_PATH_NOT_FOUND (Path not found.).
+00:00:01.773889          F:\tinderbox\win-rel\src\VBox\Main\src-server\MachineImpl.cpp[1025] (long __cdecl Machine::i_registeredInit(void))}, preserve=false aResultDetail=0
+00:00:01.779905          ERROR [COM]: aRC=E_FAIL (0x80004005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={Runtime error opening 'C:\Users\hhane\VirtualBox VMs\Kali Linux\Kali Linux.vbox' for reading VERR_PATH_NOT_FOUND (Path not found.).
+00:00:01.779913          F:\tinderbox\win-rel\src\VBox\Main\src-server\MachineImpl.cpp[1025] (long __cdecl Machine::i_registeredInit(void))}, preserve=false aResultDetail=0
+00:00:01.780769          ERROR [COM]: aRC=E_FAIL (0x80004005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={Runtime error opening 'C:\Users\hhane\VirtualBox VMs\Kali Linux\Kali Linux.vbox' for reading VERR_PATH_NOT_FOUND (Path not found.).
+00:00:01.780775          F:\tinderbox\win-rel\src\VBox\Main\src-server\MachineImpl.cpp[1025] (long __cdecl Machine::i_registeredInit(void))}, preserve=false aResultDetail=0
+00:00:01.783488          ERROR [COM]: aRC=E_FAIL (0x80004005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={Runtime error opening 'C:\Users\hhane\VirtualBox VMs\Kali Linux\Kali Linux.vbox' for reading VERR_PATH_NOT_FOUND (Path not found.).
+00:00:01.783494          F:\tinderbox\win-rel\src\VBox\Main\src-server\MachineImpl.cpp[1025] (long __cdecl Machine::i_registeredInit(void))}, preserve=false aResultDetail=0
+00:00:01.786368          ERROR [COM]: aRC=E_FAIL (0x80004005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={Runtime error opening 'C:\Users\hhane\VirtualBox VMs\Ubuntu\Ubuntu.vbox' for reading VERR_PATH_NOT_FOUND (Path not found.).
+00:00:01.786391          F:\tinderbox\win-rel\src\VBox\Main\src-server\MachineImpl.cpp[1025] (long __cdecl Machine::i_registeredInit(void))}, preserve=false aResultDetail=0
+00:00:01.787341          ERROR [COM]: aRC=E_FAIL (0x80004005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={Runtime error opening 'C:\Users\hhane\VirtualBox VMs\Ubuntu\Ubuntu.vbox' for reading VERR_PATH_NOT_FOUND (Path not found.).
+00:00:01.787347          F:\tinderbox\win-rel\src\VBox\Main\src-server\MachineImpl.cpp[1025] (long __cdecl Machine::i_registeredInit(void))}, preserve=false aResultDetail=0
+00:00:01.789026          ERROR [COM]: aRC=E_FAIL (0x80004005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={Runtime error opening 'C:\Users\hhane\VirtualBox VMs\Ubuntu\Ubuntu.vbox' for reading VERR_PATH_NOT_FOUND (Path not found.).
+00:00:01.789032          F:\tinderbox\win-rel\src\VBox\Main\src-server\MachineImpl.cpp[1025] (long __cdecl Machine::i_registeredInit(void))}, preserve=false aResultDetail=0
+00:00:04.318380          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:00:13.470983          Saving settings file "C:\Users\hhane\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:13.480738          Finished saving settings file "C:\Users\hhane\.VirtualBox\VirtualBox.xml"
+00:00:13.572757          ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The object functionality is limited}, preserve=false aResultDetail=0
+00:00:13.582326          ERROR [COM]: aRC=E_FAIL (0x80004005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={Runtime error opening 'C:\Users\hhane\VirtualBox VMs\Xubuntu\Xubuntu.vbox' for reading VERR_PATH_NOT_FOUND (Path not found.).
+00:00:13.582336          F:\tinderbox\win-rel\src\VBox\Main\src-server\MachineImpl.cpp[1025] (long __cdecl Machine::i_registeredInit(void))}, preserve=false aResultDetail=0
+00:00:13.599284          ERROR [COM]: aRC=E_FAIL (0x80004005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={Runtime error opening 'C:\Users\hhane\VirtualBox VMs\Xubuntu\Xubuntu.vbox' for reading VERR_PATH_NOT_FOUND (Path not found.).
+00:00:13.599294          F:\tinderbox\win-rel\src\VBox\Main\src-server\MachineImpl.cpp[1025] (long __cdecl Machine::i_registeredInit(void))}, preserve=false aResultDetail=0
+00:00:13.601292          ERROR [COM]: aRC=E_FAIL (0x80004005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={Runtime error opening 'C:\Users\hhane\VirtualBox VMs\Xubuntu\Xubuntu.vbox' for reading VERR_PATH_NOT_FOUND (Path not found.).
+00:00:13.601301          F:\tinderbox\win-rel\src\VBox\Main\src-server\MachineImpl.cpp[1025] (long __cdecl Machine::i_registeredInit(void))}, preserve=false aResultDetail=0
+00:00:13.601942          ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The object functionality is limited}, preserve=false aResultDetail=0
+00:00:13.604579          ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The object functionality is limited}, preserve=false aResultDetail=0
+00:00:13.620023          ERROR [COM]: aRC=E_FAIL (0x80004005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={Runtime error opening 'C:\Users\hhane\VirtualBox VMs\Xubuntu\Xubuntu.vbox' for reading VERR_PATH_NOT_FOUND (Path not found.).
+00:00:13.620033          F:\tinderbox\win-rel\src\VBox\Main\src-server\MachineImpl.cpp[1025] (long __cdecl Machine::i_registeredInit(void))}, preserve=false aResultDetail=0
+00:00:13.631930          ERROR [COM]: aRC=E_FAIL (0x80004005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={Runtime error opening 'C:\Users\hhane\VirtualBox VMs\Xubuntu\Xubuntu.vbox' for reading VERR_PATH_NOT_FOUND (Path not found.).
+00:00:13.631940          F:\tinderbox\win-rel\src\VBox\Main\src-server\MachineImpl.cpp[1025] (long __cdecl Machine::i_registeredInit(void))}, preserve=false aResultDetail=0
+00:00:13.640539          ERROR [COM]: aRC=E_FAIL (0x80004005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={Runtime error opening 'C:\Users\hhane\VirtualBox VMs\Xubuntu\Xubuntu.vbox' for reading VERR_PATH_NOT_FOUND (Path not found.).
+00:00:13.640549          F:\tinderbox\win-rel\src\VBox\Main\src-server\MachineImpl.cpp[1025] (long __cdecl Machine::i_registeredInit(void))}, preserve=false aResultDetail=0
+00:00:13.646271          ERROR [COM]: aRC=E_FAIL (0x80004005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={Runtime error opening 'C:\Users\hhane\VirtualBox VMs\Xubuntu\Xubuntu.vbox' for reading VERR_PATH_NOT_FOUND (Path not found.).
+00:00:13.646280          F:\tinderbox\win-rel\src\VBox\Main\src-server\MachineImpl.cpp[1025] (long __cdecl Machine::i_registeredInit(void))}, preserve=false aResultDetail=0
+00:00:13.652073          ERROR [COM]: aRC=E_FAIL (0x80004005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={Runtime error opening 'C:\Users\hhane\VirtualBox VMs\Xubuntu\Xubuntu.vbox' for reading VERR_PATH_NOT_FOUND (Path not found.).
+00:00:13.652083          F:\tinderbox\win-rel\src\VBox\Main\src-server\MachineImpl.cpp[1025] (long __cdecl Machine::i_registeredInit(void))}, preserve=false aResultDetail=0
+00:00:13.654911          ERROR [COM]: aRC=E_FAIL (0x80004005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={Runtime error opening 'C:\Users\hhane\VirtualBox VMs\Xubuntu\Xubuntu.vbox' for reading VERR_PATH_NOT_FOUND (Path not found.).
+00:00:13.654920          F:\tinderbox\win-rel\src\VBox\Main\src-server\MachineImpl.cpp[1025] (long __cdecl Machine::i_registeredInit(void))}, preserve=false aResultDetail=0
+00:00:16.895337          ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The object functionality is limited}, preserve=false aResultDetail=0
+00:00:16.907009          ERROR [COM]: aRC=E_FAIL (0x80004005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={Runtime error opening 'C:\Users\hhane\VirtualBox VMs\Xubuntu\Xubuntu.vbox' for reading VERR_PATH_NOT_FOUND (Path not found.).
+00:00:16.907028          F:\tinderbox\win-rel\src\VBox\Main\src-server\MachineImpl.cpp[1025] (long __cdecl Machine::i_registeredInit(void))}, preserve=false aResultDetail=0
+00:00:16.913609          ERROR [COM]: aRC=E_FAIL (0x80004005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={Runtime error opening 'C:\Users\hhane\VirtualBox VMs\Xubuntu\Xubuntu.vbox' for reading VERR_PATH_NOT_FOUND (Path not found.).
+00:00:16.913628          F:\tinderbox\win-rel\src\VBox\Main\src-server\MachineImpl.cpp[1025] (long __cdecl Machine::i_registeredInit(void))}, preserve=false aResultDetail=0
+00:00:17.145139          ERROR [COM]: aRC=E_FAIL (0x80004005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={Runtime error opening 'C:\Users\hhane\VirtualBox VMs\Xubuntu\Xubuntu.vbox' for reading VERR_PATH_NOT_FOUND (Path not found.).
+00:00:17.145150          F:\tinderbox\win-rel\src\VBox\Main\src-server\MachineImpl.cpp[1025] (long __cdecl Machine::i_registeredInit(void))}, preserve=false aResultDetail=0
+00:00:17.145962          ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The object functionality is limited}, preserve=false aResultDetail=0
+00:00:17.148225          ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The object functionality is limited}, preserve=false aResultDetail=0
+00:00:17.152784          ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The object functionality is limited}, preserve=false aResultDetail=0
+00:00:17.155382          ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The object functionality is limited}, preserve=false aResultDetail=0
+00:00:17.162854          ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The object functionality is limited}, preserve=false aResultDetail=0
+00:00:17.169643          ERROR [COM]: aRC=E_FAIL (0x80004005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={Runtime error opening 'C:\Users\hhane\VirtualBox VMs\Kali Linux\Kali Linux.vbox' for reading VERR_PATH_NOT_FOUND (Path not found.).
+00:00:17.169664          F:\tinderbox\win-rel\src\VBox\Main\src-server\MachineImpl.cpp[1025] (long __cdecl Machine::i_registeredInit(void))}, preserve=false aResultDetail=0
+00:00:17.175951          ERROR [COM]: aRC=E_FAIL (0x80004005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={Runtime error opening 'C:\Users\hhane\VirtualBox VMs\Kali Linux\Kali Linux.vbox' for reading VERR_PATH_NOT_FOUND (Path not found.).
+00:00:17.175964          F:\tinderbox\win-rel\src\VBox\Main\src-server\MachineImpl.cpp[1025] (long __cdecl Machine::i_registeredInit(void))}, preserve=false aResultDetail=0
+00:00:17.366867          ERROR [COM]: aRC=E_FAIL (0x80004005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={Runtime error opening 'C:\Users\hhane\VirtualBox VMs\Kali Linux\Kali Linux.vbox' for reading VERR_PATH_NOT_FOUND (Path not found.).
+00:00:17.366877          F:\tinderbox\win-rel\src\VBox\Main\src-server\MachineImpl.cpp[1025] (long __cdecl Machine::i_registeredInit(void))}, preserve=false aResultDetail=0
+00:00:17.367537          ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The object functionality is limited}, preserve=false aResultDetail=0
+00:00:17.369795          ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The object functionality is limited}, preserve=false aResultDetail=0
+00:00:17.374587          ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The object functionality is limited}, preserve=false aResultDetail=0
+00:00:17.376801          ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The object functionality is limited}, preserve=false aResultDetail=0
+00:00:17.389185          ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The object functionality is limited}, preserve=false aResultDetail=0
+00:00:17.392397          ERROR [COM]: aRC=E_FAIL (0x80004005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={Runtime error opening 'C:\Users\hhane\VirtualBox VMs\Xubuntu\Xubuntu.vbox' for reading VERR_PATH_NOT_FOUND (Path not found.).
+00:00:17.392408          F:\tinderbox\win-rel\src\VBox\Main\src-server\MachineImpl.cpp[1025] (long __cdecl Machine::i_registeredInit(void))}, preserve=false aResultDetail=0
+00:00:17.393817          ERROR [COM]: aRC=E_FAIL (0x80004005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={Runtime error opening 'C:\Users\hhane\VirtualBox VMs\Xubuntu\Xubuntu.vbox' for reading VERR_PATH_NOT_FOUND (Path not found.).
+00:00:17.393829          F:\tinderbox\win-rel\src\VBox\Main\src-server\MachineImpl.cpp[1025] (long __cdecl Machine::i_registeredInit(void))}, preserve=false aResultDetail=0
+00:00:17.396024          ERROR [COM]: aRC=E_FAIL (0x80004005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={Runtime error opening 'C:\Users\hhane\VirtualBox VMs\Xubuntu\Xubuntu.vbox' for reading VERR_PATH_NOT_FOUND (Path not found.).
+00:00:17.396036          F:\tinderbox\win-rel\src\VBox\Main\src-server\MachineImpl.cpp[1025] (long __cdecl Machine::i_registeredInit(void))}, preserve=false aResultDetail=0
+00:00:17.396819          ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The object functionality is limited}, preserve=false aResultDetail=0
+00:00:17.398890          ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The object functionality is limited}, preserve=false aResultDetail=0
+00:00:17.401617          ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The object functionality is limited}, preserve=false aResultDetail=0
+00:00:17.404633          ERROR [COM]: aRC=E_FAIL (0x80004005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={Runtime error opening 'C:\Users\hhane\VirtualBox VMs\Kali Linux\Kali Linux.vbox' for reading VERR_PATH_NOT_FOUND (Path not found.).
+00:00:17.404644          F:\tinderbox\win-rel\src\VBox\Main\src-server\MachineImpl.cpp[1025] (long __cdecl Machine::i_registeredInit(void))}, preserve=false aResultDetail=0
+00:00:17.406271          ERROR [COM]: aRC=E_FAIL (0x80004005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={Runtime error opening 'C:\Users\hhane\VirtualBox VMs\Kali Linux\Kali Linux.vbox' for reading VERR_PATH_NOT_FOUND (Path not found.).
+00:00:17.406281          F:\tinderbox\win-rel\src\VBox\Main\src-server\MachineImpl.cpp[1025] (long __cdecl Machine::i_registeredInit(void))}, preserve=false aResultDetail=0
+00:00:17.407670          ERROR [COM]: aRC=E_FAIL (0x80004005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={Runtime error opening 'C:\Users\hhane\VirtualBox VMs\Kali Linux\Kali Linux.vbox' for reading VERR_PATH_NOT_FOUND (Path not found.).
+00:00:17.407679          F:\tinderbox\win-rel\src\VBox\Main\src-server\MachineImpl.cpp[1025] (long __cdecl Machine::i_registeredInit(void))}, preserve=false aResultDetail=0
+00:00:17.408327          ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The object functionality is limited}, preserve=false aResultDetail=0
+00:00:17.410497          ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The object functionality is limited}, preserve=false aResultDetail=0
+00:00:17.417848          ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The object functionality is limited}, preserve=false aResultDetail=0
+00:00:17.423196          ERROR [COM]: aRC=E_FAIL (0x80004005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={Runtime error opening 'C:\Users\hhane\VirtualBox VMs\Ubuntu\Ubuntu.vbox' for reading VERR_PATH_NOT_FOUND (Path not found.).
+00:00:17.423206          F:\tinderbox\win-rel\src\VBox\Main\src-server\MachineImpl.cpp[1025] (long __cdecl Machine::i_registeredInit(void))}, preserve=false aResultDetail=0
+00:00:17.429030          ERROR [COM]: aRC=E_FAIL (0x80004005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={Runtime error opening 'C:\Users\hhane\VirtualBox VMs\Ubuntu\Ubuntu.vbox' for reading VERR_PATH_NOT_FOUND (Path not found.).
+00:00:17.429043          F:\tinderbox\win-rel\src\VBox\Main\src-server\MachineImpl.cpp[1025] (long __cdecl Machine::i_registeredInit(void))}, preserve=false aResultDetail=0
+00:00:17.595287          ERROR [COM]: aRC=E_FAIL (0x80004005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={Runtime error opening 'C:\Users\hhane\VirtualBox VMs\Ubuntu\Ubuntu.vbox' for reading VERR_PATH_NOT_FOUND (Path not found.).
+00:00:17.595293          F:\tinderbox\win-rel\src\VBox\Main\src-server\MachineImpl.cpp[1025] (long __cdecl Machine::i_registeredInit(void))}, preserve=false aResultDetail=0
+00:00:17.595685          ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The object functionality is limited}, preserve=false aResultDetail=0
+00:00:17.597039          ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The object functionality is limited}, preserve=false aResultDetail=0
+00:00:17.599524          ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The object functionality is limited}, preserve=false aResultDetail=0
+00:00:17.600767          ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The object functionality is limited}, preserve=false aResultDetail=0
+00:00:19.531448          ERROR [COM]: aRC=E_FAIL (0x80004005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={Runtime error opening 'C:\Users\hhane\VirtualBox VMs\Xubuntu\Xubuntu.vbox' for reading VERR_PATH_NOT_FOUND (Path not found.).
+00:00:19.531458          F:\tinderbox\win-rel\src\VBox\Main\src-server\MachineImpl.cpp[1025] (long __cdecl Machine::i_registeredInit(void))}, preserve=false aResultDetail=0
+00:00:19.532833          ERROR [COM]: aRC=E_FAIL (0x80004005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={Runtime error opening 'C:\Users\hhane\VirtualBox VMs\Kali Linux\Kali Linux.vbox' for reading VERR_PATH_NOT_FOUND (Path not found.).
+00:00:19.532842          F:\tinderbox\win-rel\src\VBox\Main\src-server\MachineImpl.cpp[1025] (long __cdecl Machine::i_registeredInit(void))}, preserve=false aResultDetail=0
+00:00:19.534493          ERROR [COM]: aRC=E_FAIL (0x80004005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={Runtime error opening 'C:\Users\hhane\VirtualBox VMs\Ubuntu\Ubuntu.vbox' for reading VERR_PATH_NOT_FOUND (Path not found.).
+00:00:19.534501          F:\tinderbox\win-rel\src\VBox\Main\src-server\MachineImpl.cpp[1025] (long __cdecl Machine::i_registeredInit(void))}, preserve=false aResultDetail=0
+00:00:20.658793          Saving settings file "C:\Users\hhane\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:20.663385          Finished saving settings file "C:\Users\hhane\.VirtualBox\VirtualBox.xml"
+00:00:20.663807          Saving settings file "C:\Users\hhane\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:20.668093          Finished saving settings file "C:\Users\hhane\.VirtualBox\VirtualBox.xml"
+00:00:20.668546          Saving settings file "C:\Users\hhane\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:20.673128          Finished saving settings file "C:\Users\hhane\.VirtualBox\VirtualBox.xml"
+00:00:20.686197          Saving settings file "C:\Users\hhane\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:20.691147          Finished saving settings file "C:\Users\hhane\.VirtualBox\VirtualBox.xml"
+00:00:20.746047          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:00:22.246641          Launched VM: 1578779552 pid: 13280 (0x33e0) frontend: GUI/Qt name: Ubuntu20
+00:00:22.287852          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:00:34.212254          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:00:35.478484          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={70401eef-c8e9-466b-9660-45cb3e9979e4} aComponent={ExtPackManagerWrap} aText={No extension pack by the name 'Oracle VM VirtualBox Extension Pack' was found}, preserve=false aResultDetail=0
+00:00:41.698977          ERROR [COM]: aRC=VBOX_E_IPRT_ERROR (0x80bb0005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={SessionMachine} aText={Saved screenshot data is not available (VERR_NOT_SUPPORTED)}, preserve=false aResultDetail=-37
+00:00:42.143971          netIfIsWireless: CreateFile on '\\.\{F2EA5BD2-2032-4F7D-9A3B-F0061B67C9B1}' failed with rcWin=2 (0x2) - ignoring
+00:00:42.151930          netIfIsWireless: CreateFile on '\\.\{F8820F77-9231-44B9-9204-D70E2A992D62}' failed with rcWin=2 (0x2) - ignoring
+00:00:42.364115          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Starting)}, preserve=false aResultDetail=0
+00:00:42.374268          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={SessionMachine} aText={The machine is not mutable or saved (state is Starting)}, preserve=false aResultDetail=0
+00:00:44.385348          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
+00:00:44.458832          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:03:59.822395          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Paused)}, preserve=false aResultDetail=0
+00:04:01.330345          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Stopping)}, preserve=false aResultDetail=0
+00:04:01.663174          Saving settings file "C:\Users\hhane\VirtualBox VMs\Ubuntu20\Ubuntu20.vbox" with version "1.19-windows"
+00:04:01.687590          Finished saving settings file "C:\Users\hhane\VirtualBox VMs\Ubuntu20\Ubuntu20.vbox"
+00:04:01.836490          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:04:04.394010          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:07:43.861955 USBPROXY usbLibGetDevices: Starting USB device enumeration
+00:07:43.896879 USBPROXY Getting USB descriptor (id 3) failed (dwErr=31) on hub USB#ROOT_HUB30#4&10c3f119&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 5
+00:07:43.903720 USBPROXY usbLibGetDevices: Found 4 USB devices, 0 captured
+00:07:45.035184 USBPROXY usbLibGetDevices: Starting USB device enumeration
+00:07:45.039962 USBPROXY Getting USB descriptor (id 3) failed (dwErr=31) on hub USB#ROOT_HUB30#4&10c3f119&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 5
+00:07:45.047792 USBPROXY usbLibGetDevices: Found 4 USB devices, 0 captured
+00:07:45.872428 dns-monitor HostDnsMonitor: updating information
+00:07:45.872451 dns-monitor HostDnsMonitor: unchanged
+00:07:53.167150 USBPROXY usbLibGetDevices: Starting USB device enumeration
+00:07:53.173743 USBPROXY Getting USB descriptor (id 3) failed (dwErr=31) on hub USB#ROOT_HUB30#4&10c3f119&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 5
+00:07:53.176673 USBPROXY usbLibGetDevices: Found 4 USB devices, 0 captured
+00:08:00.999844 USBPROXY usbLibGetDevices: Starting USB device enumeration
+00:08:01.002683 USBPROXY Getting USB descriptor (id 3) failed (dwErr=31) on hub USB#ROOT_HUB30#4&10c3f119&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 5
+00:08:01.004697 USBPROXY usbLibGetDevices: Found 4 USB devices, 0 captured
+00:09:29.866020 USBPROXY usbLibGetDevices: Starting USB device enumeration
+00:09:29.869156 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&10c3f119&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 5
+00:09:29.872938 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&10c3f119&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 10
+00:09:29.873624 USBPROXY usbLibGetDevices: Found 4 USB devices, 0 captured
+00:09:36.191690 USBPROXY usbLibGetDevices: Starting USB device enumeration
+00:09:36.193224 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&10c3f119&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 5
+00:09:36.195038 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&10c3f119&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 10
+00:09:36.195232 USBPROXY usbLibGetDevices: Found 4 USB devices, 0 captured
+00:09:56.554237 USBPROXY usbLibGetDevices: Starting USB device enumeration
+00:09:56.556160 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&10c3f119&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 5
+00:09:56.557755 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&10c3f119&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 10
+00:09:56.557878 USBPROXY usbLibGetDevices: Found 4 USB devices, 0 captured
+00:10:06.240253 USBPROXY usbLibGetDevices: Starting USB device enumeration
+00:10:06.241850 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&10c3f119&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 5
+00:10:06.243648 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&10c3f119&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 10
+00:10:06.243857 USBPROXY usbLibGetDevices: Found 4 USB devices, 0 captured
+00:10:23.294481 USBPROXY usbLibGetDevices: Starting USB device enumeration
+00:10:23.295977 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&10c3f119&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 5
+00:10:23.297705 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&10c3f119&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 10
+00:10:23.297951 USBPROXY usbLibGetDevices: Found 4 USB devices, 0 captured
+00:10:23.955610 USBPROXY usbLibGetDevices: Starting USB device enumeration
+00:10:23.957149 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&10c3f119&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 5
+00:10:23.958757 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&10c3f119&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 10
+00:10:23.958884 USBPROXY usbLibGetDevices: Found 4 USB devices, 0 captured
+00:21:04.403885 USBPROXY usbLibGetDevices: Starting USB device enumeration
+00:21:04.405833 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&10c3f119&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 5
+00:21:04.406034 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&10c3f119&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 7
+00:21:04.406157 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&10c3f119&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 10
+00:21:04.407135 USBPROXY usbLibGetDevices: Found 4 USB devices, 0 captured
+00:21:04.409519 USBPROXY USB: Unknown USB device detected (idVendor: 0x04f2, idProduct: 0xb5c5)
+00:37:54.206498 USBPROXY usbLibGetDevices: Starting USB device enumeration
+00:37:54.208431 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&10c3f119&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 5
+00:37:54.208571 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&10c3f119&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 7
+00:37:54.208862 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&10c3f119&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 10
+00:37:54.211701 USBPROXY usbLibGetDevices: Found 4 USB devices, 0 captured
+00:37:54.829955 USBPROXY usbLibGetDevices: Starting USB device enumeration
+00:37:54.831577 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&10c3f119&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 5
+00:37:54.831681 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&10c3f119&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 7
+00:37:54.831771 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&10c3f119&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 10
+00:37:54.832947 USBPROXY usbLibGetDevices: Found 4 USB devices, 0 captured
+00:43:19.027601          Launched VM: 1606921488 pid: 22540 (0x580c) frontend: GUI/Qt name: Ubuntu20
+00:43:19.055814          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:43:27.120717          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:43:27.962215          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={70401eef-c8e9-466b-9660-45cb3e9979e4} aComponent={ExtPackManagerWrap} aText={No extension pack by the name 'Oracle VM VirtualBox Extension Pack' was found}, preserve=false aResultDetail=0
+00:43:32.394549          ERROR [COM]: aRC=VBOX_E_IPRT_ERROR (0x80bb0005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={SessionMachine} aText={Saved screenshot data is not available (VERR_NOT_SUPPORTED)}, preserve=false aResultDetail=-37
+00:43:32.725883          netIfIsWireless: CreateFile on '\\.\{F2EA5BD2-2032-4F7D-9A3B-F0061B67C9B1}' failed with rcWin=2 (0x2) - ignoring
+00:43:32.730994          netIfIsWireless: CreateFile on '\\.\{F8820F77-9231-44B9-9204-D70E2A992D62}' failed with rcWin=2 (0x2) - ignoring
+00:43:32.905746          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Starting)}, preserve=false aResultDetail=0
+00:43:32.907824          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={SessionMachine} aText={The machine is not mutable or saved (state is Starting)}, preserve=false aResultDetail=0
+00:43:34.758402          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
+00:43:34.803289          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:45:39.327477          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Paused)}, preserve=false aResultDetail=0
+00:45:40.336995          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Stopping)}, preserve=false aResultDetail=0
+00:45:40.701571          Saving settings file "C:\Users\hhane\VirtualBox VMs\Ubuntu20\Ubuntu20.vbox" with version "1.19-windows"
+00:45:40.703975          Finished saving settings file "C:\Users\hhane\VirtualBox VMs\Ubuntu20\Ubuntu20.vbox"
+00:45:40.720839          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:45:41.776090          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:45:50.273719          Saving settings file "C:\Users\hhane\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:45:50.276459          Finished saving settings file "C:\Users\hhane\.VirtualBox\VirtualBox.xml"
+00:45:50.276546          Saving settings file "C:\Users\hhane\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:45:50.278738          Finished saving settings file "C:\Users\hhane\.VirtualBox\VirtualBox.xml"
+00:45:50.288077 DeleteVM Saving settings file "C:\Users\hhane\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:45:50.290581 DeleteVM Finished saving settings file "C:\Users\hhane\.VirtualBox\VirtualBox.xml"
+00:45:50.291265          Saving settings file "C:\Users\hhane\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:45:50.293765          Finished saving settings file "C:\Users\hhane\.VirtualBox\VirtualBox.xml"
+00:45:50.317255          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={7682d5eb-f00e-44f1-8ca2-99d08b1cd607} aComponent={VirtualBoxWrap} aText={Could not find a registered machine with UUID {31ed14cd-9303-4550-baca-8b6c20199dd5}}, preserve=false aResultDetail=0
+00:45:50.324575          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={7682d5eb-f00e-44f1-8ca2-99d08b1cd607} aComponent={VirtualBoxWrap} aText={Could not find a registered machine with UUID {31ed14cd-9303-4550-baca-8b6c20199dd5}}, preserve=false aResultDetail=0
+00:46:05.345969          Saving settings file "C:\Users\hhane\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:46:05.347857          Finished saving settings file "C:\Users\hhane\.VirtualBox\VirtualBox.xml"
+00:46:47.939454 createBase Saving settings file "C:\Users\hhane\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:46:47.942019 createBase Finished saving settings file "C:\Users\hhane\.VirtualBox\VirtualBox.xml"
+00:46:47.956185          Saving settings file "C:\Users\hhane\VirtualBox VMs\Ubuntu\Ubuntu.vbox" with version "1.19-windows"
+00:46:47.957901          Finished saving settings file "C:\Users\hhane\VirtualBox VMs\Ubuntu\Ubuntu.vbox"
+00:46:47.958058          Saving settings file "C:\Users\hhane\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:46:47.959937          Finished saving settings file "C:\Users\hhane\.VirtualBox\VirtualBox.xml"
+00:46:47.962747          Saving settings file "C:\Users\hhane\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:46:47.965003          Finished saving settings file "C:\Users\hhane\.VirtualBox\VirtualBox.xml"
+00:46:47.966233          Saving settings file "C:\Users\hhane\VirtualBox VMs\Ubuntu\Ubuntu.vbox" with version "1.19-windows"
+00:46:47.968066          Finished saving settings file "C:\Users\hhane\VirtualBox VMs\Ubuntu\Ubuntu.vbox"
+00:46:47.980938          UnattendedInstaller::initInstaller: UnattendedInstaller::savePassedData(): 
+00:46:48.012493          Saving settings file "C:\Users\hhane\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:46:48.014545          Finished saving settings file "C:\Users\hhane\.VirtualBox\VirtualBox.xml"
+00:46:48.014661          Saving settings file "C:\Users\hhane\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:46:48.016526          Finished saving settings file "C:\Users\hhane\.VirtualBox\VirtualBox.xml"
+00:46:48.016749          Saving settings file "C:\Users\hhane\VirtualBox VMs\Ubuntu\Ubuntu.vbox" with version "1.19-windows"
+00:46:48.018936          Finished saving settings file "C:\Users\hhane\VirtualBox VMs\Ubuntu\Ubuntu.vbox"
+00:46:48.029661          Launched VM: 1608317664 pid: 18596 (0x48a4) frontend: GUI/Qt name: Ubuntu
+00:46:48.042775          Saving settings file "C:\Users\hhane\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:46:48.045951          Finished saving settings file "C:\Users\hhane\.VirtualBox\VirtualBox.xml"
+00:46:48.378981          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:46:53.623196          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:46:54.155016          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={70401eef-c8e9-466b-9660-45cb3e9979e4} aComponent={ExtPackManagerWrap} aText={No extension pack by the name 'Oracle VM VirtualBox Extension Pack' was found}, preserve=false aResultDetail=0
+00:46:56.811183          ERROR [COM]: aRC=VBOX_E_IPRT_ERROR (0x80bb0005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={SessionMachine} aText={Saved screenshot data is not available (VERR_NOT_SUPPORTED)}, preserve=false aResultDetail=-37
+00:46:57.038237          netIfIsWireless: CreateFile on '\\.\{F2EA5BD2-2032-4F7D-9A3B-F0061B67C9B1}' failed with rcWin=2 (0x2) - ignoring
+00:46:57.040973          netIfIsWireless: CreateFile on '\\.\{F8820F77-9231-44B9-9204-D70E2A992D62}' failed with rcWin=2 (0x2) - ignoring
+00:46:57.147733          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Starting)}, preserve=false aResultDetail=0
+00:46:57.163490          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={SessionMachine} aText={The machine is not mutable or saved (state is Starting)}, preserve=false aResultDetail=0
+00:46:57.165758          Saving settings file "C:\Users\hhane\VirtualBox VMs\Ubuntu\Ubuntu.vbox" with version "1.19-windows"
+00:46:57.168177          Finished saving settings file "C:\Users\hhane\VirtualBox VMs\Ubuntu\Ubuntu.vbox"
+00:46:57.187366          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Starting)}, preserve=false aResultDetail=0
+00:46:58.443832          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
+00:46:58.444239          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
+00:46:58.467761          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:46:58.855965          Saving settings file "C:\Users\hhane\VirtualBox VMs\Ubuntu\Ubuntu.vbox" with version "1.19-windows"
+00:46:58.861775          Finished saving settings file "C:\Users\hhane\VirtualBox VMs\Ubuntu\Ubuntu.vbox"
+00:46:58.884137          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:47:01.335052          Saving settings file "C:\Users\hhane\VirtualBox VMs\Ubuntu\Ubuntu.vbox" with version "1.19-windows"
+00:47:01.337446          Finished saving settings file "C:\Users\hhane\VirtualBox VMs\Ubuntu\Ubuntu.vbox"
+00:47:01.345248          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:47:03.587402          Saving settings file "C:\Users\hhane\VirtualBox VMs\Ubuntu\Ubuntu.vbox" with version "1.19-windows"
+00:47:03.589656          Finished saving settings file "C:\Users\hhane\VirtualBox VMs\Ubuntu\Ubuntu.vbox"
+00:47:03.598687          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:48:06.519056          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Paused)}, preserve=false aResultDetail=0
+00:48:08.188130          Saving settings file "C:\Users\hhane\VirtualBox VMs\Ubuntu\Ubuntu.vbox" with version "1.19-windows"
+00:48:08.190724          Finished saving settings file "C:\Users\hhane\VirtualBox VMs\Ubuntu\Ubuntu.vbox"
+00:48:08.222283          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Stopping)}, preserve=false aResultDetail=0
+00:48:08.300135          Saving settings file "C:\Users\hhane\VirtualBox VMs\Ubuntu\Ubuntu.vbox" with version "1.19-windows"
+00:48:08.302679          Finished saving settings file "C:\Users\hhane\VirtualBox VMs\Ubuntu\Ubuntu.vbox"
+00:48:08.321281          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:48:09.349935          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:48:14.914717          Saving settings file "C:\Users\hhane\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:48:14.916632          Finished saving settings file "C:\Users\hhane\.VirtualBox\VirtualBox.xml"
+00:48:14.916689          Saving settings file "C:\Users\hhane\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:48:14.918335          Finished saving settings file "C:\Users\hhane\.VirtualBox\VirtualBox.xml"
+00:48:14.921289 DeleteVM Saving settings file "C:\Users\hhane\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:48:14.923743 DeleteVM Finished saving settings file "C:\Users\hhane\.VirtualBox\VirtualBox.xml"
+00:48:14.924555          Saving settings file "C:\Users\hhane\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:48:14.927044          Finished saving settings file "C:\Users\hhane\.VirtualBox\VirtualBox.xml"
+00:48:14.938929          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={7682d5eb-f00e-44f1-8ca2-99d08b1cd607} aComponent={VirtualBoxWrap} aText={Could not find a registered machine with UUID {526a1096-3153-4913-836a-1dc581b173b5}}, preserve=false aResultDetail=0
+00:48:14.945774          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={7682d5eb-f00e-44f1-8ca2-99d08b1cd607} aComponent={VirtualBoxWrap} aText={Could not find a registered machine with UUID {526a1096-3153-4913-836a-1dc581b173b5}}, preserve=false aResultDetail=0
+00:49:05.142859 createBase Saving settings file "C:\Users\hhane\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:49:05.145209 createBase Finished saving settings file "C:\Users\hhane\.VirtualBox\VirtualBox.xml"
+00:49:05.153401          Saving settings file "C:\Users\hhane\VirtualBox VMs\ubuntu2\ubuntu2.vbox" with version "1.19-windows"
+00:49:05.154826          Finished saving settings file "C:\Users\hhane\VirtualBox VMs\ubuntu2\ubuntu2.vbox"
+00:49:05.155049          Saving settings file "C:\Users\hhane\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:49:05.157350          Finished saving settings file "C:\Users\hhane\.VirtualBox\VirtualBox.xml"
+00:49:05.160346          Saving settings file "C:\Users\hhane\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:49:05.162539          Finished saving settings file "C:\Users\hhane\.VirtualBox\VirtualBox.xml"
+00:49:05.164047          Saving settings file "C:\Users\hhane\VirtualBox VMs\ubuntu2\ubuntu2.vbox" with version "1.19-windows"
+00:49:05.166921          Finished saving settings file "C:\Users\hhane\VirtualBox VMs\ubuntu2\ubuntu2.vbox"
+00:49:05.177773          UnattendedInstaller::initInstaller: UnattendedInstaller::savePassedData(): 
+00:49:05.188180          Saving settings file "C:\Users\hhane\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:49:05.190325          Finished saving settings file "C:\Users\hhane\.VirtualBox\VirtualBox.xml"
+00:49:05.190488          Saving settings file "C:\Users\hhane\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:49:05.192785          Finished saving settings file "C:\Users\hhane\.VirtualBox\VirtualBox.xml"
+00:49:05.193104          Saving settings file "C:\Users\hhane\VirtualBox VMs\ubuntu2\ubuntu2.vbox" with version "1.19-windows"
+00:49:05.196163          Finished saving settings file "C:\Users\hhane\VirtualBox VMs\ubuntu2\ubuntu2.vbox"
+00:49:05.214292          Launched VM: 1608361120 pid: 18512 (0x4850) frontend: headless name: ubuntu2
+00:49:05.233244          Saving settings file "C:\Users\hhane\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:49:05.235811          Finished saving settings file "C:\Users\hhane\.VirtualBox\VirtualBox.xml"
+00:49:05.547671          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:49:08.934373          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:49:09.055139          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Starting)}, preserve=false aResultDetail=0
+00:49:11.259872          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
+00:49:11.260555          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
+00:49:11.291635          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:52:24.310821          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={SessionMachine} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:52:24.406121          netIfIsWireless: CreateFile on '\\.\{F2EA5BD2-2032-4F7D-9A3B-F0061B67C9B1}' failed with rcWin=2 (0x2) - ignoring
+00:52:24.410312          netIfIsWireless: CreateFile on '\\.\{F8820F77-9231-44B9-9204-D70E2A992D62}' failed with rcWin=2 (0x2) - ignoring
+00:52:24.441096          netIfIsWireless: CreateFile on '\\.\{F2EA5BD2-2032-4F7D-9A3B-F0061B67C9B1}' failed with rcWin=2 (0x2) - ignoring
+00:52:24.444888          netIfIsWireless: CreateFile on '\\.\{F8820F77-9231-44B9-9204-D70E2A992D62}' failed with rcWin=2 (0x2) - ignoring
+00:52:44.508340          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:52:44.515727          Saving settings file "C:\Users\hhane\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:52:44.517894          Finished saving settings file "C:\Users\hhane\.VirtualBox\VirtualBox.xml"
+00:52:44.528067          Saving settings file "C:\Users\hhane\VirtualBox VMs\ubuntu2\ubuntu2.vbox" with version "1.19-windows"
+00:52:44.529876          Finished saving settings file "C:\Users\hhane\VirtualBox VMs\ubuntu2\ubuntu2.vbox"
+00:52:44.566082          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:52:45.970679          Deleting file 'C:\Users\hhane\VirtualBox VMs\ubuntu2\Logs\VBoxHardening.log' failed: VERR_SHARING_VIOLATION
+00:52:45.970993          ERROR [COM]: aRC=VBOX_E_FILE_ERROR (0x80bb0004) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={Error deleting hardening log file 'C:\Users\hhane\VirtualBox VMs\ubuntu2\Logs\VBoxHardening.log' (VERR_SHARING_VIOLATION)}, preserve=false aResultDetail=-114
+00:52:45.982150          Launched VM: 1608277728 pid: 16372 (0x3ff4) frontend: separate name: ubuntu2
+00:52:46.006236          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:52:46.323945          ERROR [COM]: aRC=VBOX_E_INVALID_OBJECT_STATE (0x80bb0007) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine 'ubuntu2' is already locked by a session (or being locked or unlocked)}, preserve=false aResultDetail=0
+00:52:46.906210          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={70401eef-c8e9-466b-9660-45cb3e9979e4} aComponent={ExtPackManagerWrap} aText={No extension pack by the name 'Oracle VM VirtualBox Extension Pack' was found}, preserve=false aResultDetail=0
+00:52:47.582633          ERROR [COM]: aRC=VBOX_E_IPRT_ERROR (0x80bb0005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={SessionMachine} aText={Saved screenshot data is not available (VERR_NOT_SUPPORTED)}, preserve=false aResultDetail=-37
+00:52:47.645935          netIfIsWireless: CreateFile on '\\.\{F2EA5BD2-2032-4F7D-9A3B-F0061B67C9B1}' failed with rcWin=2 (0x2) - ignoring
+00:52:47.648605          netIfIsWireless: CreateFile on '\\.\{F8820F77-9231-44B9-9204-D70E2A992D62}' failed with rcWin=2 (0x2) - ignoring
+00:52:48.008035          Saving settings file "C:\Users\hhane\VirtualBox VMs\ubuntu2\ubuntu2.vbox" with version "1.19-windows"
+00:52:48.009566          Finished saving settings file "C:\Users\hhane\VirtualBox VMs\ubuntu2\ubuntu2.vbox"
+00:52:48.018603          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:52:57.202413          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Paused)}, preserve=false aResultDetail=0
+00:53:01.895886          Saving settings file "C:\Users\hhane\VirtualBox VMs\ubuntu2\ubuntu2.vbox" with version "1.19-windows"
+00:53:01.898550          Finished saving settings file "C:\Users\hhane\VirtualBox VMs\ubuntu2\ubuntu2.vbox"
+00:53:01.941284          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Stopping)}, preserve=false aResultDetail=0
+00:53:02.014823          Saving settings file "C:\Users\hhane\VirtualBox VMs\ubuntu2\ubuntu2.vbox" with version "1.19-windows"
+00:53:02.018058          Finished saving settings file "C:\Users\hhane\VirtualBox VMs\ubuntu2\ubuntu2.vbox"
+00:53:02.052387          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:53:08.096989          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine.}, preserve=false aResultDetail=0
+00:53:08.123179          netIfIsWireless: CreateFile on '\\.\{F2EA5BD2-2032-4F7D-9A3B-F0061B67C9B1}' failed with rcWin=2 (0x2) - ignoring
+00:53:08.127037          netIfIsWireless: CreateFile on '\\.\{F8820F77-9231-44B9-9204-D70E2A992D62}' failed with rcWin=2 (0x2) - ignoring
+00:53:08.161391          netIfIsWireless: CreateFile on '\\.\{F2EA5BD2-2032-4F7D-9A3B-F0061B67C9B1}' failed with rcWin=2 (0x2) - ignoring
+00:53:08.165547          netIfIsWireless: CreateFile on '\\.\{F8820F77-9231-44B9-9204-D70E2A992D62}' failed with rcWin=2 (0x2) - ignoring
+00:53:08.282066          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:53:14.593632          Saving settings file "C:\Users\hhane\VirtualBox VMs\ubuntu2\ubuntu2.vbox" with version "1.19-windows"
+00:53:14.595953          Finished saving settings file "C:\Users\hhane\VirtualBox VMs\ubuntu2\ubuntu2.vbox"
+00:53:14.637432          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:53:17.756467          Launched VM: 1578791808 pid: 17064 (0x42a8) frontend: GUI/Qt name: ubuntu2
+00:53:17.769539          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:53:23.659556          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:53:24.285033          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={70401eef-c8e9-466b-9660-45cb3e9979e4} aComponent={ExtPackManagerWrap} aText={No extension pack by the name 'Oracle VM VirtualBox Extension Pack' was found}, preserve=false aResultDetail=0
+00:53:27.402881          ERROR [COM]: aRC=VBOX_E_IPRT_ERROR (0x80bb0005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={SessionMachine} aText={Saved screenshot data is not available (VERR_NOT_SUPPORTED)}, preserve=false aResultDetail=-37
+00:53:27.474989          netIfIsWireless: CreateFile on '\\.\{F2EA5BD2-2032-4F7D-9A3B-F0061B67C9B1}' failed with rcWin=2 (0x2) - ignoring
+00:53:27.477465          netIfIsWireless: CreateFile on '\\.\{F8820F77-9231-44B9-9204-D70E2A992D62}' failed with rcWin=2 (0x2) - ignoring
+00:53:27.607688          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Starting)}, preserve=false aResultDetail=0
+00:53:27.710599          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={SessionMachine} aText={The machine is not mutable or saved (state is Starting)}, preserve=false aResultDetail=0
+00:53:27.713906          Saving settings file "C:\Users\hhane\VirtualBox VMs\ubuntu2\ubuntu2.vbox" with version "1.19-windows"
+00:53:27.716133          Finished saving settings file "C:\Users\hhane\VirtualBox VMs\ubuntu2\ubuntu2.vbox"
+00:53:27.728467          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Starting)}, preserve=false aResultDetail=0
+00:53:29.042188          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
+00:53:29.042558          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
+00:53:29.070024          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:53:29.462127          Saving settings file "C:\Users\hhane\VirtualBox VMs\ubuntu2\ubuntu2.vbox" with version "1.19-windows"
+00:53:29.464169          Finished saving settings file "C:\Users\hhane\VirtualBox VMs\ubuntu2\ubuntu2.vbox"
+00:53:29.473582          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:53:30.809387          Saving settings file "C:\Users\hhane\VirtualBox VMs\ubuntu2\ubuntu2.vbox" with version "1.19-windows"
+00:53:30.813607          Finished saving settings file "C:\Users\hhane\VirtualBox VMs\ubuntu2\ubuntu2.vbox"
+00:53:30.827725          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:53:57.032421          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:53:57.037242          Saving settings file "C:\Users\hhane\VirtualBox VMs\ubuntu2\ubuntu2.vbox" with version "1.19-windows"
+00:53:57.038963          Finished saving settings file "C:\Users\hhane\VirtualBox VMs\ubuntu2\ubuntu2.vbox"
+00:53:57.047081          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:54:01.012144          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:54:01.018113          Saving settings file "C:\Users\hhane\VirtualBox VMs\ubuntu2\ubuntu2.vbox" with version "1.19-windows"
+00:54:01.020270          Finished saving settings file "C:\Users\hhane\VirtualBox VMs\ubuntu2\ubuntu2.vbox"
+00:54:01.033468          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:55:00.992005          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Paused)}, preserve=false aResultDetail=0
+00:55:02.151070          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Stopping)}, preserve=false aResultDetail=0
+00:55:02.245415          Saving settings file "C:\Users\hhane\VirtualBox VMs\ubuntu2\ubuntu2.vbox" with version "1.19-windows"
+00:55:02.248443          Finished saving settings file "C:\Users\hhane\VirtualBox VMs\ubuntu2\ubuntu2.vbox"
+00:55:02.270412          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:55:03.785656          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:56:01.545392          Saving settings file "C:\Users\hhane\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:56:01.547516          Finished saving settings file "C:\Users\hhane\.VirtualBox\VirtualBox.xml"
+00:56:01.547586          Saving settings file "C:\Users\hhane\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:56:01.549563          Finished saving settings file "C:\Users\hhane\.VirtualBox\VirtualBox.xml"
+00:56:01.552609 DeleteVM Saving settings file "C:\Users\hhane\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:56:01.554987 DeleteVM Finished saving settings file "C:\Users\hhane\.VirtualBox\VirtualBox.xml"
+00:56:01.556368          Saving settings file "C:\Users\hhane\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:56:01.558716          Finished saving settings file "C:\Users\hhane\.VirtualBox\VirtualBox.xml"
+00:56:01.570896          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={7682d5eb-f00e-44f1-8ca2-99d08b1cd607} aComponent={VirtualBoxWrap} aText={Could not find a registered machine with UUID {40dec35f-e832-4820-a056-c6f3997b6554}}, preserve=false aResultDetail=0
+00:56:01.579299          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={7682d5eb-f00e-44f1-8ca2-99d08b1cd607} aComponent={VirtualBoxWrap} aText={Could not find a registered machine with UUID {40dec35f-e832-4820-a056-c6f3997b6554}}, preserve=false aResultDetail=0
+00:56:48.771865 createBase Saving settings file "C:\Users\hhane\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:56:48.776084 createBase Finished saving settings file "C:\Users\hhane\.VirtualBox\VirtualBox.xml"
+00:56:48.793468          Saving settings file "C:\Users\hhane\VirtualBox VMs\ubuntu3\ubuntu3.vbox" with version "1.19-windows"
+00:56:48.795824          Finished saving settings file "C:\Users\hhane\VirtualBox VMs\ubuntu3\ubuntu3.vbox"
+00:56:48.796049          Saving settings file "C:\Users\hhane\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:56:48.798159          Finished saving settings file "C:\Users\hhane\.VirtualBox\VirtualBox.xml"
+00:56:48.800415          Saving settings file "C:\Users\hhane\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:56:48.802392          Finished saving settings file "C:\Users\hhane\.VirtualBox\VirtualBox.xml"
+00:56:48.803391          Saving settings file "C:\Users\hhane\VirtualBox VMs\ubuntu3\ubuntu3.vbox" with version "1.19-windows"
+00:56:48.805246          Finished saving settings file "C:\Users\hhane\VirtualBox VMs\ubuntu3\ubuntu3.vbox"
+00:56:48.816909          UnattendedInstaller::initInstaller: UnattendedInstaller::savePassedData(): 
+00:56:48.826490          Saving settings file "C:\Users\hhane\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:56:48.828458          Finished saving settings file "C:\Users\hhane\.VirtualBox\VirtualBox.xml"
+00:56:48.828587          Saving settings file "C:\Users\hhane\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:56:48.830573          Finished saving settings file "C:\Users\hhane\.VirtualBox\VirtualBox.xml"
+00:56:48.830878          Saving settings file "C:\Users\hhane\VirtualBox VMs\ubuntu3\ubuntu3.vbox" with version "1.19-windows"
+00:56:48.832471          Finished saving settings file "C:\Users\hhane\VirtualBox VMs\ubuntu3\ubuntu3.vbox"
+00:56:48.843643          Launched VM: 1608668176 pid: 7664 (0x1df0) frontend: GUI/Qt name: ubuntu3
+00:56:48.857255          Saving settings file "C:\Users\hhane\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:56:48.858904          Finished saving settings file "C:\Users\hhane\.VirtualBox\VirtualBox.xml"
+00:56:49.165453          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:56:54.672097          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:56:55.368799          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={70401eef-c8e9-466b-9660-45cb3e9979e4} aComponent={ExtPackManagerWrap} aText={No extension pack by the name 'Oracle VM VirtualBox Extension Pack' was found}, preserve=false aResultDetail=0
+00:56:58.121883          ERROR [COM]: aRC=VBOX_E_IPRT_ERROR (0x80bb0005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={SessionMachine} aText={Saved screenshot data is not available (VERR_NOT_SUPPORTED)}, preserve=false aResultDetail=-37
+00:56:58.240559          netIfIsWireless: CreateFile on '\\.\{F2EA5BD2-2032-4F7D-9A3B-F0061B67C9B1}' failed with rcWin=2 (0x2) - ignoring
+00:56:58.243273          netIfIsWireless: CreateFile on '\\.\{F8820F77-9231-44B9-9204-D70E2A992D62}' failed with rcWin=2 (0x2) - ignoring
+00:56:58.369465          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Starting)}, preserve=false aResultDetail=0
+00:56:58.430615          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={SessionMachine} aText={The machine is not mutable or saved (state is Starting)}, preserve=false aResultDetail=0
+00:56:58.433002          Saving settings file "C:\Users\hhane\VirtualBox VMs\ubuntu3\ubuntu3.vbox" with version "1.19-windows"
+00:56:58.435790          Finished saving settings file "C:\Users\hhane\VirtualBox VMs\ubuntu3\ubuntu3.vbox"
+00:56:58.447293          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Starting)}, preserve=false aResultDetail=0
+00:56:59.866695          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
+00:56:59.867346          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
+00:56:59.895672          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:57:00.298443          Saving settings file "C:\Users\hhane\VirtualBox VMs\ubuntu3\ubuntu3.vbox" with version "1.19-windows"
+00:57:00.305994          Finished saving settings file "C:\Users\hhane\VirtualBox VMs\ubuntu3\ubuntu3.vbox"
+00:57:00.327050          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:57:02.758797          Saving settings file "C:\Users\hhane\VirtualBox VMs\ubuntu3\ubuntu3.vbox" with version "1.19-windows"
+00:57:02.760865          Finished saving settings file "C:\Users\hhane\VirtualBox VMs\ubuntu3\ubuntu3.vbox"
+00:57:02.769703          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:57:23.990908          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:57:23.996369          Saving settings file "C:\Users\hhane\VirtualBox VMs\ubuntu3\ubuntu3.vbox" with version "1.19-windows"
+00:57:23.997953          Finished saving settings file "C:\Users\hhane\VirtualBox VMs\ubuntu3\ubuntu3.vbox"
+00:57:24.006561          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:57:29.641647          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:57:29.646356          Saving settings file "C:\Users\hhane\VirtualBox VMs\ubuntu3\ubuntu3.vbox" with version "1.19-windows"
+00:57:29.647942          Finished saving settings file "C:\Users\hhane\VirtualBox VMs\ubuntu3\ubuntu3.vbox"
+00:57:29.656856          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:57:33.162016          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:57:33.167211          Saving settings file "C:\Users\hhane\VirtualBox VMs\ubuntu3\ubuntu3.vbox" with version "1.19-windows"
+00:57:33.169225          Finished saving settings file "C:\Users\hhane\VirtualBox VMs\ubuntu3\ubuntu3.vbox"
+00:57:33.177776          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:57:44.130276          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Paused)}, preserve=false aResultDetail=0
+00:57:46.167662          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:59:00.495919          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Paused)}, preserve=false aResultDetail=0
+00:59:01.965554          Saving settings file "C:\Users\hhane\VirtualBox VMs\ubuntu3\ubuntu3.vbox" with version "1.19-windows"
+00:59:01.967565          Finished saving settings file "C:\Users\hhane\VirtualBox VMs\ubuntu3\ubuntu3.vbox"
+00:59:01.994774          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Stopping)}, preserve=false aResultDetail=0
+00:59:02.053807          Saving settings file "C:\Users\hhane\VirtualBox VMs\ubuntu3\ubuntu3.vbox" with version "1.19-windows"
+00:59:02.056085          Finished saving settings file "C:\Users\hhane\VirtualBox VMs\ubuntu3\ubuntu3.vbox"
+00:59:02.073598          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:59:03.089312          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:59:07.534313          Launched VM: 1608360016 pid: 25584 (0x63f0) frontend: GUI/Qt name: ubuntu3
+00:59:07.547050          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:59:13.245085          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:59:13.773360          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={70401eef-c8e9-466b-9660-45cb3e9979e4} aComponent={ExtPackManagerWrap} aText={No extension pack by the name 'Oracle VM VirtualBox Extension Pack' was found}, preserve=false aResultDetail=0
+00:59:16.388812          ERROR [COM]: aRC=VBOX_E_IPRT_ERROR (0x80bb0005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={SessionMachine} aText={Saved screenshot data is not available (VERR_NOT_SUPPORTED)}, preserve=false aResultDetail=-37
+00:59:16.627700          netIfIsWireless: CreateFile on '\\.\{F2EA5BD2-2032-4F7D-9A3B-F0061B67C9B1}' failed with rcWin=2 (0x2) - ignoring
+00:59:16.630303          netIfIsWireless: CreateFile on '\\.\{F8820F77-9231-44B9-9204-D70E2A992D62}' failed with rcWin=2 (0x2) - ignoring
+00:59:16.745380          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Starting)}, preserve=false aResultDetail=0
+00:59:16.762779          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={SessionMachine} aText={The machine is not mutable or saved (state is Starting)}, preserve=false aResultDetail=0
+00:59:16.765700          Saving settings file "C:\Users\hhane\VirtualBox VMs\ubuntu3\ubuntu3.vbox" with version "1.19-windows"
+00:59:16.768598          Finished saving settings file "C:\Users\hhane\VirtualBox VMs\ubuntu3\ubuntu3.vbox"
+00:59:16.789624          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Starting)}, preserve=false aResultDetail=0
+00:59:18.098999          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
+00:59:18.099739          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
+00:59:18.127520          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:59:18.523224          Saving settings file "C:\Users\hhane\VirtualBox VMs\ubuntu3\ubuntu3.vbox" with version "1.19-windows"
+00:59:18.524893          Finished saving settings file "C:\Users\hhane\VirtualBox VMs\ubuntu3\ubuntu3.vbox"
+00:59:18.533754          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:59:21.007504          Saving settings file "C:\Users\hhane\VirtualBox VMs\ubuntu3\ubuntu3.vbox" with version "1.19-windows"
+00:59:21.009600          Finished saving settings file "C:\Users\hhane\VirtualBox VMs\ubuntu3\ubuntu3.vbox"
+00:59:21.016983          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+01:00:03.620230          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Paused)}, preserve=false aResultDetail=0
+01:00:04.613789          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Stopping)}, preserve=false aResultDetail=0
+01:00:04.685502          Saving settings file "C:\Users\hhane\VirtualBox VMs\ubuntu3\ubuntu3.vbox" with version "1.19-windows"
+01:00:04.687860          Finished saving settings file "C:\Users\hhane\VirtualBox VMs\ubuntu3\ubuntu3.vbox"
+01:00:04.706739          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+01:00:06.237711          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+01:00:11.828280          Saving settings file "C:\Users\hhane\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+01:00:11.829936          Finished saving settings file "C:\Users\hhane\.VirtualBox\VirtualBox.xml"
+01:00:11.830000          Saving settings file "C:\Users\hhane\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+01:00:11.831755          Finished saving settings file "C:\Users\hhane\.VirtualBox\VirtualBox.xml"
+01:00:11.834392 DeleteVM Saving settings file "C:\Users\hhane\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+01:00:11.836785 DeleteVM Finished saving settings file "C:\Users\hhane\.VirtualBox\VirtualBox.xml"
+01:00:11.837513          Saving settings file "C:\Users\hhane\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+01:00:11.839943          Finished saving settings file "C:\Users\hhane\.VirtualBox\VirtualBox.xml"
+01:00:11.851355          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={7682d5eb-f00e-44f1-8ca2-99d08b1cd607} aComponent={VirtualBoxWrap} aText={Could not find a registered machine with UUID {3e9de8e4-683c-4cb4-9b32-19ab6a927204}}, preserve=false aResultDetail=0
+01:00:11.860645          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={7682d5eb-f00e-44f1-8ca2-99d08b1cd607} aComponent={VirtualBoxWrap} aText={Could not find a registered machine with UUID {3e9de8e4-683c-4cb4-9b32-19ab6a927204}}, preserve=false aResultDetail=0
+01:00:24.842734          Saving settings file "C:\Users\hhane\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+01:00:24.845347          Finished saving settings file "C:\Users\hhane\.VirtualBox\VirtualBox.xml"
+01:01:51.990840 createBase Saving settings file "C:\Users\hhane\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+01:01:51.994717 createBase Finished saving settings file "C:\Users\hhane\.VirtualBox\VirtualBox.xml"
+01:01:52.010664          Saving settings file "C:\Users\hhane\VirtualBox VMs\ubuntu11\ubuntu11.vbox" with version "1.19-windows"
+01:01:52.013067          Finished saving settings file "C:\Users\hhane\VirtualBox VMs\ubuntu11\ubuntu11.vbox"
+01:01:52.013279          Saving settings file "C:\Users\hhane\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+01:01:52.015574          Finished saving settings file "C:\Users\hhane\.VirtualBox\VirtualBox.xml"
+01:01:52.017988          Saving settings file "C:\Users\hhane\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+01:01:52.019852          Finished saving settings file "C:\Users\hhane\.VirtualBox\VirtualBox.xml"
+01:01:52.021097          Saving settings file "C:\Users\hhane\VirtualBox VMs\ubuntu11\ubuntu11.vbox" with version "1.19-windows"
+01:01:52.023000          Finished saving settings file "C:\Users\hhane\VirtualBox VMs\ubuntu11\ubuntu11.vbox"
+01:01:52.034966          UnattendedInstaller::initInstaller: UnattendedInstaller::savePassedData(): 
+01:01:52.042976          Saving settings file "C:\Users\hhane\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+01:01:52.045010          Finished saving settings file "C:\Users\hhane\.VirtualBox\VirtualBox.xml"
+01:01:52.045144          Saving settings file "C:\Users\hhane\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+01:01:52.046836          Finished saving settings file "C:\Users\hhane\.VirtualBox\VirtualBox.xml"
+01:01:52.047128          Saving settings file "C:\Users\hhane\VirtualBox VMs\ubuntu11\ubuntu11.vbox" with version "1.19-windows"
+01:01:52.048778          Finished saving settings file "C:\Users\hhane\VirtualBox VMs\ubuntu11\ubuntu11.vbox"
+01:01:52.059657          Launched VM: 1607000288 pid: 14612 (0x3914) frontend: GUI/Qt name: ubuntu11
+01:01:52.077468          Saving settings file "C:\Users\hhane\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+01:01:52.079382          Finished saving settings file "C:\Users\hhane\.VirtualBox\VirtualBox.xml"
+01:01:52.397053          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+01:01:57.754677          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+01:01:58.281926          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={70401eef-c8e9-466b-9660-45cb3e9979e4} aComponent={ExtPackManagerWrap} aText={No extension pack by the name 'Oracle VM VirtualBox Extension Pack' was found}, preserve=false aResultDetail=0
+01:02:00.993371          ERROR [COM]: aRC=VBOX_E_IPRT_ERROR (0x80bb0005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={SessionMachine} aText={Saved screenshot data is not available (VERR_NOT_SUPPORTED)}, preserve=false aResultDetail=-37
+01:02:01.125233          netIfIsWireless: CreateFile on '\\.\{F2EA5BD2-2032-4F7D-9A3B-F0061B67C9B1}' failed with rcWin=2 (0x2) - ignoring
+01:02:01.127908          netIfIsWireless: CreateFile on '\\.\{F8820F77-9231-44B9-9204-D70E2A992D62}' failed with rcWin=2 (0x2) - ignoring
+01:02:01.282059          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Starting)}, preserve=false aResultDetail=0
+01:02:01.318977          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={SessionMachine} aText={The machine is not mutable or saved (state is Starting)}, preserve=false aResultDetail=0
+01:02:01.322896          Saving settings file "C:\Users\hhane\VirtualBox VMs\ubuntu11\ubuntu11.vbox" with version "1.19-windows"
+01:02:01.325761          Finished saving settings file "C:\Users\hhane\VirtualBox VMs\ubuntu11\ubuntu11.vbox"
+01:02:01.335984          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Starting)}, preserve=false aResultDetail=0
+01:02:03.109358          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
+01:02:03.109812          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
+01:02:03.139299          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+01:02:03.585791          Saving settings file "C:\Users\hhane\VirtualBox VMs\ubuntu11\ubuntu11.vbox" with version "1.19-windows"
+01:02:03.588151          Finished saving settings file "C:\Users\hhane\VirtualBox VMs\ubuntu11\ubuntu11.vbox"
+01:02:03.595778          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+01:02:06.038166          Saving settings file "C:\Users\hhane\VirtualBox VMs\ubuntu11\ubuntu11.vbox" with version "1.19-windows"
+01:02:06.040167          Finished saving settings file "C:\Users\hhane\VirtualBox VMs\ubuntu11\ubuntu11.vbox"
+01:02:06.047881          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+01:02:17.618929          Saving settings file "C:\Users\hhane\VirtualBox VMs\ubuntu11\ubuntu11.vbox" with version "1.19-windows"
+01:02:17.622579          Finished saving settings file "C:\Users\hhane\VirtualBox VMs\ubuntu11\ubuntu11.vbox"
+01:02:17.634620          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+01:07:02.305990          Saving settings file "C:\Users\hhane\VirtualBox VMs\ubuntu11\ubuntu11.vbox" with version "1.19-windows"
+01:07:02.308577          Finished saving settings file "C:\Users\hhane\VirtualBox VMs\ubuntu11\ubuntu11.vbox"
+01:07:02.334083          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+01:18:12.511468          Saving settings file "C:\Users\hhane\VirtualBox VMs\ubuntu11\ubuntu11.vbox" with version "1.19-windows"
+01:18:12.515707          Finished saving settings file "C:\Users\hhane\VirtualBox VMs\ubuntu11\ubuntu11.vbox"
+01:18:12.536487          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+01:18:19.201477          Saving settings file "C:\Users\hhane\VirtualBox VMs\ubuntu11\ubuntu11.vbox" with version "1.19-windows"
+01:18:19.205536          Finished saving settings file "C:\Users\hhane\VirtualBox VMs\ubuntu11\ubuntu11.vbox"
+01:18:19.217588          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+01:18:26.453708          ERROR [COM]: aRC=VBOX_E_IPRT_ERROR (0x80bb0005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={SessionMachine} aText={Saved screenshot data is not available (VERR_NOT_SUPPORTED)}, preserve=false aResultDetail=-37
+01:18:26.527697          Saving settings file "C:\Users\hhane\VirtualBox VMs\ubuntu11\ubuntu11.vbox" with version "1.19-windows"
+01:18:26.533026          Finished saving settings file "C:\Users\hhane\VirtualBox VMs\ubuntu11\ubuntu11.vbox"
+01:18:26.574294          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+01:18:26.790930          Saving settings file "C:\Users\hhane\VirtualBox VMs\ubuntu11\ubuntu11.vbox" with version "1.19-windows"
+01:18:26.794079          Finished saving settings file "C:\Users\hhane\VirtualBox VMs\ubuntu11\ubuntu11.vbox"
+01:18:26.806270          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+01:20:41.231981          Saving settings file "C:\Users\hhane\VirtualBox VMs\ubuntu11\ubuntu11.vbox" with version "1.19-windows"
+01:20:41.234342          Finished saving settings file "C:\Users\hhane\VirtualBox VMs\ubuntu11\ubuntu11.vbox"
+01:20:41.245580          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+01:22:13.858800          Saving settings file "C:\Users\hhane\VirtualBox VMs\ubuntu11\ubuntu11.vbox" with version "1.19-windows"
+01:22:13.863477          Finished saving settings file "C:\Users\hhane\VirtualBox VMs\ubuntu11\ubuntu11.vbox"
+01:22:13.882744          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+01:22:39.634270          Saving settings file "C:\Users\hhane\VirtualBox VMs\ubuntu11\ubuntu11.vbox" with version "1.19-windows"
+01:22:39.636376          Finished saving settings file "C:\Users\hhane\VirtualBox VMs\ubuntu11\ubuntu11.vbox"
+01:22:39.644035          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+01:26:18.830548 USBPROXY usbLibGetDevices: Starting USB device enumeration
+01:26:18.833758 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&10c3f119&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 5
+01:26:18.834048 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&10c3f119&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 7
+01:26:18.834265 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&10c3f119&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 10
+01:26:18.837365 USBPROXY usbLibGetDevices: Found 4 USB devices, 0 captured
+01:26:19.239324 dns-monitor HostDnsMonitor: updating information
+01:26:19.239517 dns-monitor HostDnsMonitor: unchanged
+01:26:21.334547 USBPROXY usbLibGetDevices: Starting USB device enumeration
+01:26:21.335988 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&10c3f119&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 5
+01:26:21.336067 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&10c3f119&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 7
+01:26:21.336139 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&10c3f119&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 10
+01:26:21.336292 USBPROXY usbLibGetDevices: Found 4 USB devices, 0 captured
+01:29:50.993849          Saving settings file "C:\Users\hhane\VirtualBox VMs\ubuntu11\ubuntu11.vbox" with version "1.19-windows"
+01:29:50.996619          Finished saving settings file "C:\Users\hhane\VirtualBox VMs\ubuntu11\ubuntu11.vbox"
+01:29:51.008178          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+01:34:13.536088          Saving settings file "C:\Users\hhane\VirtualBox VMs\ubuntu11\ubuntu11.vbox" with version "1.19-windows"
+01:34:13.544183          Finished saving settings file "C:\Users\hhane\VirtualBox VMs\ubuntu11\ubuntu11.vbox"
+01:34:13.562027          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+01:39:35.572481          Saving settings file "C:\Users\hhane\VirtualBox VMs\ubuntu11\ubuntu11.vbox" with version "1.19-windows"
+01:39:35.575636          Finished saving settings file "C:\Users\hhane\VirtualBox VMs\ubuntu11\ubuntu11.vbox"
+01:39:35.598937          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+01:42:08.281742          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Paused)}, preserve=false aResultDetail=0
+01:42:10.825107          Saving settings file "C:\Users\hhane\VirtualBox VMs\ubuntu11\ubuntu11.vbox" with version "1.19-windows"
+01:42:10.827925          Finished saving settings file "C:\Users\hhane\VirtualBox VMs\ubuntu11\ubuntu11.vbox"
+01:42:10.844788          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Paused)}, preserve=false aResultDetail=0
+01:42:10.908455          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Stopping)}, preserve=false aResultDetail=0
+01:42:11.335423          Saving settings file "C:\Users\hhane\VirtualBox VMs\ubuntu11\ubuntu11.vbox" with version "1.19-windows"
+01:42:11.337600          Finished saving settings file "C:\Users\hhane\VirtualBox VMs\ubuntu11\ubuntu11.vbox"
+01:42:11.356061          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+01:42:12.901793          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+01:42:41.909255 createBase Saving settings file "C:\Users\hhane\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+01:42:41.914615 createBase Finished saving settings file "C:\Users\hhane\.VirtualBox\VirtualBox.xml"
+01:42:41.926125          Saving settings file "C:\Users\hhane\VirtualBox VMs\Ubuntu 22.0\Ubuntu 22.0.vbox" with version "1.19-windows"
+01:42:41.927279          Finished saving settings file "C:\Users\hhane\VirtualBox VMs\Ubuntu 22.0\Ubuntu 22.0.vbox"
+01:42:41.927428          Saving settings file "C:\Users\hhane\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+01:42:41.928881          Finished saving settings file "C:\Users\hhane\.VirtualBox\VirtualBox.xml"
+01:42:41.932094          Saving settings file "C:\Users\hhane\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+01:42:41.934170          Finished saving settings file "C:\Users\hhane\.VirtualBox\VirtualBox.xml"
+01:42:41.935335          Saving settings file "C:\Users\hhane\VirtualBox VMs\Ubuntu 22.0\Ubuntu 22.0.vbox" with version "1.19-windows"
+01:42:41.936828          Finished saving settings file "C:\Users\hhane\VirtualBox VMs\Ubuntu 22.0\Ubuntu 22.0.vbox"
+01:42:41.969285          Saving settings file "C:\Users\hhane\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+01:42:41.971937          Finished saving settings file "C:\Users\hhane\.VirtualBox\VirtualBox.xml"
+01:42:41.989650          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+01:42:50.320930          Launched VM: 1579003104 pid: 18956 (0x4a0c) frontend: GUI/Qt name: Ubuntu 22.0
+01:42:50.340672          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+01:42:56.434222          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+01:42:57.071824          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={70401eef-c8e9-466b-9660-45cb3e9979e4} aComponent={ExtPackManagerWrap} aText={No extension pack by the name 'Oracle VM VirtualBox Extension Pack' was found}, preserve=false aResultDetail=0
+01:43:00.664511          ERROR [COM]: aRC=VBOX_E_IPRT_ERROR (0x80bb0005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={SessionMachine} aText={Saved screenshot data is not available (VERR_NOT_SUPPORTED)}, preserve=false aResultDetail=-37
+01:43:00.940384          netIfIsWireless: CreateFile on '\\.\{F2EA5BD2-2032-4F7D-9A3B-F0061B67C9B1}' failed with rcWin=2 (0x2) - ignoring
+01:43:00.943348          netIfIsWireless: CreateFile on '\\.\{F8820F77-9231-44B9-9204-D70E2A992D62}' failed with rcWin=2 (0x2) - ignoring
+01:43:01.072540          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Starting)}, preserve=false aResultDetail=0
+01:43:01.085877          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={SessionMachine} aText={The machine is not mutable or saved (state is Starting)}, preserve=false aResultDetail=0
+01:43:01.090500          Saving settings file "C:\Users\hhane\VirtualBox VMs\Ubuntu 22.0\Ubuntu 22.0.vbox" with version "1.19-windows"
+01:43:01.093371          Finished saving settings file "C:\Users\hhane\VirtualBox VMs\Ubuntu 22.0\Ubuntu 22.0.vbox"
+01:43:01.116937          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Starting)}, preserve=false aResultDetail=0
+01:43:02.522784          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
+01:43:02.523239          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
+01:43:02.559952          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+01:43:02.961326          Saving settings file "C:\Users\hhane\VirtualBox VMs\Ubuntu 22.0\Ubuntu 22.0.vbox" with version "1.19-windows"
+01:43:02.963852          Finished saving settings file "C:\Users\hhane\VirtualBox VMs\Ubuntu 22.0\Ubuntu 22.0.vbox"
+01:43:02.973067          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+01:43:05.446606          Saving settings file "C:\Users\hhane\VirtualBox VMs\Ubuntu 22.0\Ubuntu 22.0.vbox" with version "1.19-windows"
+01:43:05.448734          Finished saving settings file "C:\Users\hhane\VirtualBox VMs\Ubuntu 22.0\Ubuntu 22.0.vbox"
+01:43:05.456347          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+01:43:24.007148          Saving settings file "C:\Users\hhane\VirtualBox VMs\Ubuntu 22.0\Ubuntu 22.0.vbox" with version "1.19-windows"
+01:43:24.009578          Finished saving settings file "C:\Users\hhane\VirtualBox VMs\Ubuntu 22.0\Ubuntu 22.0.vbox"
+01:43:24.018485          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+01:45:26.025384          Saving settings file "C:\Users\hhane\VirtualBox VMs\Ubuntu 22.0\Ubuntu 22.0.vbox" with version "1.19-windows"
+01:45:26.027944          Finished saving settings file "C:\Users\hhane\VirtualBox VMs\Ubuntu 22.0\Ubuntu 22.0.vbox"
+01:45:26.044423          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+01:45:27.603498          Saving settings file "C:\Users\hhane\VirtualBox VMs\Ubuntu 22.0\Ubuntu 22.0.vbox" with version "1.19-windows"
+01:45:27.606334          Finished saving settings file "C:\Users\hhane\VirtualBox VMs\Ubuntu 22.0\Ubuntu 22.0.vbox"
+01:45:27.615279          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+01:45:32.857416          ERROR [COM]: aRC=VBOX_E_IPRT_ERROR (0x80bb0005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={SessionMachine} aText={Saved screenshot data is not available (VERR_NOT_SUPPORTED)}, preserve=false aResultDetail=-37
+01:45:32.899879          Saving settings file "C:\Users\hhane\VirtualBox VMs\Ubuntu 22.0\Ubuntu 22.0.vbox" with version "1.19-windows"
+01:45:32.902533          Finished saving settings file "C:\Users\hhane\VirtualBox VMs\Ubuntu 22.0\Ubuntu 22.0.vbox"
+01:45:32.915148          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+01:45:33.186650          Saving settings file "C:\Users\hhane\VirtualBox VMs\Ubuntu 22.0\Ubuntu 22.0.vbox" with version "1.19-windows"
+01:45:33.193749          Finished saving settings file "C:\Users\hhane\VirtualBox VMs\Ubuntu 22.0\Ubuntu 22.0.vbox"
+01:45:33.209810          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+01:56:22.032314 USBPROXY usbLibGetDevices: Starting USB device enumeration
+01:56:22.051043 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&10c3f119&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 5
+01:56:22.051221 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&10c3f119&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 7
+01:56:22.063473 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&10c3f119&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 10
+01:56:22.065682 USBPROXY usbLibGetDevices: Found 4 USB devices, 0 captured
+01:56:22.531639 USBPROXY usbLibGetDevices: Starting USB device enumeration
+01:56:23.099181 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&10c3f119&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 5
+01:56:23.100035 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&10c3f119&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 7
+01:56:23.101057 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&10c3f119&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 10
+01:56:23.115944 USBPROXY usbLibGetDevices: Found 4 USB devices, 0 captured
+02:05:18.663342          Saving settings file "C:\Users\hhane\VirtualBox VMs\Ubuntu 22.0\Ubuntu 22.0.vbox" with version "1.19-windows"
+02:05:18.667425          Finished saving settings file "C:\Users\hhane\VirtualBox VMs\Ubuntu 22.0\Ubuntu 22.0.vbox"
+02:05:18.697707          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+02:12:32.505401          Saving settings file "C:\Users\hhane\VirtualBox VMs\Ubuntu 22.0\Ubuntu 22.0.vbox" with version "1.19-windows"
+02:12:32.510623          Finished saving settings file "C:\Users\hhane\VirtualBox VMs\Ubuntu 22.0\Ubuntu 22.0.vbox"
+02:12:32.530689          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+02:15:34.052779          Saving settings file "C:\Users\hhane\VirtualBox VMs\Ubuntu 22.0\Ubuntu 22.0.vbox" with version "1.19-windows"
+02:15:34.057556          Finished saving settings file "C:\Users\hhane\VirtualBox VMs\Ubuntu 22.0\Ubuntu 22.0.vbox"
+02:15:34.070182          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+02:15:35.399432          Saving settings file "C:\Users\hhane\VirtualBox VMs\Ubuntu 22.0\Ubuntu 22.0.vbox" with version "1.19-windows"
+02:15:35.401952          Finished saving settings file "C:\Users\hhane\VirtualBox VMs\Ubuntu 22.0\Ubuntu 22.0.vbox"
+02:15:35.409014          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+02:21:18.743412          Saving settings file "C:\Users\hhane\VirtualBox VMs\Ubuntu 22.0\Ubuntu 22.0.vbox" with version "1.19-windows"
+02:21:18.747253          Finished saving settings file "C:\Users\hhane\VirtualBox VMs\Ubuntu 22.0\Ubuntu 22.0.vbox"
+02:21:18.758839          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+02:21:19.575171          Saving settings file "C:\Users\hhane\VirtualBox VMs\Ubuntu 22.0\Ubuntu 22.0.vbox" with version "1.19-windows"
+02:21:19.581555          Finished saving settings file "C:\Users\hhane\VirtualBox VMs\Ubuntu 22.0\Ubuntu 22.0.vbox"
+02:21:19.597979          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+02:23:36.977056          Saving settings file "C:\Users\hhane\VirtualBox VMs\Ubuntu 22.0\Ubuntu 22.0.vbox" with version "1.19-windows"
+02:23:36.982656          Finished saving settings file "C:\Users\hhane\VirtualBox VMs\Ubuntu 22.0\Ubuntu 22.0.vbox"
+02:23:37.000876          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+02:23:37.342525          Saving settings file "C:\Users\hhane\VirtualBox VMs\Ubuntu 22.0\Ubuntu 22.0.vbox" with version "1.19-windows"
+02:23:37.351795          Finished saving settings file "C:\Users\hhane\VirtualBox VMs\Ubuntu 22.0\Ubuntu 22.0.vbox"
+02:23:37.371039          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+02:23:39.155542          Saving settings file "C:\Users\hhane\VirtualBox VMs\Ubuntu 22.0\Ubuntu 22.0.vbox" with version "1.19-windows"
+02:23:39.165836          Finished saving settings file "C:\Users\hhane\VirtualBox VMs\Ubuntu 22.0\Ubuntu 22.0.vbox"
+02:23:39.182852          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+02:23:39.688890          Saving settings file "C:\Users\hhane\VirtualBox VMs\Ubuntu 22.0\Ubuntu 22.0.vbox" with version "1.19-windows"
+02:23:39.697276          Finished saving settings file "C:\Users\hhane\VirtualBox VMs\Ubuntu 22.0\Ubuntu 22.0.vbox"
+02:23:39.712015          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+02:35:23.605858          Saving settings file "C:\Users\hhane\VirtualBox VMs\Ubuntu 22.0\Ubuntu 22.0.vbox" with version "1.19-windows"
+02:35:23.611299          Finished saving settings file "C:\Users\hhane\VirtualBox VMs\Ubuntu 22.0\Ubuntu 22.0.vbox"
+02:35:23.635289          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+02:35:28.241300          Saving settings file "C:\Users\hhane\VirtualBox VMs\Ubuntu 22.0\Ubuntu 22.0.vbox" with version "1.19-windows"
+02:35:28.243965          Finished saving settings file "C:\Users\hhane\VirtualBox VMs\Ubuntu 22.0\Ubuntu 22.0.vbox"
+02:35:28.251150          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+02:35:31.227048          Saving settings file "C:\Users\hhane\VirtualBox VMs\Ubuntu 22.0\Ubuntu 22.0.vbox" with version "1.19-windows"
+02:35:31.230835          Finished saving settings file "C:\Users\hhane\VirtualBox VMs\Ubuntu 22.0\Ubuntu 22.0.vbox"
+02:35:31.242398          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+02:35:32.451239          Saving settings file "C:\Users\hhane\VirtualBox VMs\Ubuntu 22.0\Ubuntu 22.0.vbox" with version "1.19-windows"
+02:35:32.462560          Finished saving settings file "C:\Users\hhane\VirtualBox VMs\Ubuntu 22.0\Ubuntu 22.0.vbox"
+02:35:32.483109          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+03:17:57.642723          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={SessionMachine} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+03:17:57.754695          netIfIsWireless: CreateFile on '\\.\{F2EA5BD2-2032-4F7D-9A3B-F0061B67C9B1}' failed with rcWin=2 (0x2) - ignoring
+03:17:57.758932          netIfIsWireless: CreateFile on '\\.\{F8820F77-9231-44B9-9204-D70E2A992D62}' failed with rcWin=2 (0x2) - ignoring
+03:17:57.784584          netIfIsWireless: CreateFile on '\\.\{F2EA5BD2-2032-4F7D-9A3B-F0061B67C9B1}' failed with rcWin=2 (0x2) - ignoring
+03:17:57.787287          netIfIsWireless: CreateFile on '\\.\{F8820F77-9231-44B9-9204-D70E2A992D62}' failed with rcWin=2 (0x2) - ignoring
+03:18:02.321755          Saving settings file "C:\Users\hhane\VirtualBox VMs\Ubuntu 22.0\Ubuntu 22.0.vbox" with version "1.19-windows"
+03:18:02.327532          Finished saving settings file "C:\Users\hhane\VirtualBox VMs\Ubuntu 22.0\Ubuntu 22.0.vbox"
+03:18:02.347363          Saving settings file "C:\Users\hhane\VirtualBox VMs\Ubuntu 22.0\Ubuntu 22.0.vbox" with version "1.19-windows"
+03:18:02.349754          Finished saving settings file "C:\Users\hhane\VirtualBox VMs\Ubuntu 22.0\Ubuntu 22.0.vbox"
+03:18:02.405844          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+03:18:36.941093          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Paused)}, preserve=false aResultDetail=0
+03:18:39.237605          Saving settings file "C:\Users\hhane\VirtualBox VMs\Ubuntu 22.0\Ubuntu 22.0.vbox" with version "1.19-windows"
+03:18:39.246554          Finished saving settings file "C:\Users\hhane\VirtualBox VMs\Ubuntu 22.0\Ubuntu 22.0.vbox"
+03:18:39.268746          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Paused)}, preserve=false aResultDetail=0
+03:18:39.286193          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Saving)}, preserve=false aResultDetail=0
+03:18:46.478079          Saving settings file "C:\Users\hhane\VirtualBox VMs\Ubuntu 22.0\Ubuntu 22.0.vbox" with version "1.19-windows"
+03:18:46.480297          Finished saving settings file "C:\Users\hhane\VirtualBox VMs\Ubuntu 22.0\Ubuntu 22.0.vbox"
+03:18:46.483646 SaveState Saving settings file "C:\Users\hhane\VirtualBox VMs\Ubuntu 22.0\Ubuntu 22.0.vbox" with version "1.19-windows"
+03:18:46.486255 SaveState Finished saving settings file "C:\Users\hhane\VirtualBox VMs\Ubuntu 22.0\Ubuntu 22.0.vbox"
+03:18:46.529118          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Saved)}, preserve=false aResultDetail=0
+03:18:48.030717          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Saved)}, preserve=false aResultDetail=0
+03:19:02.062851          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={SessionMachine} aText={The machine is not mutable (state is Saved)}, preserve=false aResultDetail=0
+03:19:02.168359          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Saved)}, preserve=false aResultDetail=0
+03:19:02.174680          netIfIsWireless: CreateFile on '\\.\{F2EA5BD2-2032-4F7D-9A3B-F0061B67C9B1}' failed with rcWin=2 (0x2) - ignoring
+03:19:02.178499          netIfIsWireless: CreateFile on '\\.\{F8820F77-9231-44B9-9204-D70E2A992D62}' failed with rcWin=2 (0x2) - ignoring
+03:19:02.208131          netIfIsWireless: CreateFile on '\\.\{F2EA5BD2-2032-4F7D-9A3B-F0061B67C9B1}' failed with rcWin=2 (0x2) - ignoring
+03:19:02.211853          netIfIsWireless: CreateFile on '\\.\{F8820F77-9231-44B9-9204-D70E2A992D62}' failed with rcWin=2 (0x2) - ignoring
+03:19:02.244836          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Saved)}, preserve=false aResultDetail=0
+03:19:15.714342          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={SessionMachine} aText={The machine is not mutable or running (state is Saved)}, preserve=false aResultDetail=0
+03:19:15.739144          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Saved)}, preserve=false aResultDetail=0
+03:19:19.483894          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Saved)}, preserve=false aResultDetail=0
+03:19:21.229001          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={SessionMachine} aText={The machine is not mutable or running (state is Saved)}, preserve=false aResultDetail=0
+03:19:21.252657          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Saved)}, preserve=false aResultDetail=0
+03:19:27.667103          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Saved)}, preserve=false aResultDetail=0
+03:19:39.849148          Launched VM: 1608407744 pid: 13024 (0x32e0) frontend: GUI/Qt name: Ubuntu 22.0
+03:19:39.868260          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Saved)}, preserve=false aResultDetail=0
+03:19:46.242061          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Saved)}, preserve=false aResultDetail=0
+03:19:46.838428          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={70401eef-c8e9-466b-9660-45cb3e9979e4} aComponent={ExtPackManagerWrap} aText={No extension pack by the name 'Oracle VM VirtualBox Extension Pack' was found}, preserve=false aResultDetail=0
+03:21:44.905240          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Restoring)}, preserve=false aResultDetail=0
+03:21:45.037657          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={SessionMachine} aText={The machine is not mutable or saved (state is Restoring)}, preserve=false aResultDetail=0
+03:21:46.211541          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
+03:21:50.247687          Saving settings file "C:\Users\hhane\VirtualBox VMs\Ubuntu 22.0\Ubuntu 22.0.vbox" with version "1.19-windows"
+03:21:50.250960          Finished saving settings file "C:\Users\hhane\VirtualBox VMs\Ubuntu 22.0\Ubuntu 22.0.vbox"
+03:21:50.304614          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+03:21:53.552539          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Paused)}, preserve=false aResultDetail=0
+03:21:57.789018          Saving settings file "C:\Users\hhane\VirtualBox VMs\Ubuntu 22.0\Ubuntu 22.0.vbox" with version "1.19-windows"
+03:21:57.795100          Finished saving settings file "C:\Users\hhane\VirtualBox VMs\Ubuntu 22.0\Ubuntu 22.0.vbox"
+03:21:57.848527          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+03:21:59.775228          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Stopping)}, preserve=false aResultDetail=0
+03:21:59.824698          Saving settings file "C:\Users\hhane\VirtualBox VMs\Ubuntu 22.0\Ubuntu 22.0.vbox" with version "1.19-windows"
+03:21:59.827714          Finished saving settings file "C:\Users\hhane\VirtualBox VMs\Ubuntu 22.0\Ubuntu 22.0.vbox"
+03:21:59.839634          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+03:22:00.876665          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+03:22:05.269985          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine.}, preserve=false aResultDetail=0
+03:22:05.385565          netIfIsWireless: CreateFile on '\\.\{F2EA5BD2-2032-4F7D-9A3B-F0061B67C9B1}' failed with rcWin=2 (0x2) - ignoring
+03:22:05.389622          netIfIsWireless: CreateFile on '\\.\{F8820F77-9231-44B9-9204-D70E2A992D62}' failed with rcWin=2 (0x2) - ignoring
+03:22:05.411942          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+03:22:05.417557          netIfIsWireless: CreateFile on '\\.\{F2EA5BD2-2032-4F7D-9A3B-F0061B67C9B1}' failed with rcWin=2 (0x2) - ignoring
+03:22:05.421105          netIfIsWireless: CreateFile on '\\.\{F8820F77-9231-44B9-9204-D70E2A992D62}' failed with rcWin=2 (0x2) - ignoring
+03:22:05.465012          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+03:22:12.037562          Saving settings file "C:\Users\hhane\VirtualBox VMs\Ubuntu 22.0\Ubuntu 22.0.vbox" with version "1.19-windows"
+03:22:12.039911          Finished saving settings file "C:\Users\hhane\VirtualBox VMs\Ubuntu 22.0\Ubuntu 22.0.vbox"
+03:22:12.079744          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+03:22:13.690662          Launched VM: 1608389840 pid: 24648 (0x6048) frontend: GUI/Qt name: Ubuntu 22.0
+03:22:13.706680          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+03:22:19.519353          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+03:22:20.067655          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={70401eef-c8e9-466b-9660-45cb3e9979e4} aComponent={ExtPackManagerWrap} aText={No extension pack by the name 'Oracle VM VirtualBox Extension Pack' was found}, preserve=false aResultDetail=0
+03:22:29.958354          ERROR [COM]: aRC=VBOX_E_IPRT_ERROR (0x80bb0005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={SessionMachine} aText={Saved screenshot data is not available (VERR_NOT_SUPPORTED)}, preserve=false aResultDetail=-37
+03:22:30.006344          netIfIsWireless: CreateFile on '\\.\{F2EA5BD2-2032-4F7D-9A3B-F0061B67C9B1}' failed with rcWin=2 (0x2) - ignoring
+03:22:30.009442          netIfIsWireless: CreateFile on '\\.\{F8820F77-9231-44B9-9204-D70E2A992D62}' failed with rcWin=2 (0x2) - ignoring
+03:22:30.133481          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Starting)}, preserve=false aResultDetail=0
+03:22:31.394353          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
+03:22:31.417450          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+03:22:32.715073          Saving settings file "C:\Users\hhane\VirtualBox VMs\Ubuntu 22.0\Ubuntu 22.0.vbox" with version "1.19-windows"
+03:22:32.718335          Finished saving settings file "C:\Users\hhane\VirtualBox VMs\Ubuntu 22.0\Ubuntu 22.0.vbox"
+03:22:32.732076          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+03:23:00.366584          Saving settings file "C:\Users\hhane\VirtualBox VMs\Ubuntu 22.0\Ubuntu 22.0.vbox" with version "1.19-windows"
+03:23:00.369394          Finished saving settings file "C:\Users\hhane\VirtualBox VMs\Ubuntu 22.0\Ubuntu 22.0.vbox"
+03:23:00.379003          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+03:26:07.780820          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Paused)}, preserve=false aResultDetail=0
+03:26:09.521660          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+03:26:10.953250          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Stopping)}, preserve=false aResultDetail=0
+03:26:11.321411          Saving settings file "C:\Users\hhane\VirtualBox VMs\Ubuntu 22.0\Ubuntu 22.0.vbox" with version "1.19-windows"
+03:26:11.323898          Finished saving settings file "C:\Users\hhane\VirtualBox VMs\Ubuntu 22.0\Ubuntu 22.0.vbox"
+03:26:11.337942          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+03:26:12.392067          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+03:26:18.988172 main     WM_QUERYENDSESSION: shutdown (0x00000000)
+03:26:18.988216 main     VBoxSvc has active connections: bActivity = false, lock count = 2
+03:26:19.875604 main     VirtualBox: object deletion starts
+03:26:19.876778 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Medium 'C:\Users\hhane\VirtualBox VMs\ubuntu11\ubuntu11.vhd' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+03:26:19.878008 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Medium 'C:\Users\hhane\VirtualBox VMs\Ubuntu 22.0\Ubuntu 22.0.vdi' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+03:26:19.882093 main     HostDnsMonitor: shutting down ...
+03:26:19.882317 main     HostDnsMonitor: shut down
+03:26:19.891646 Watcher  ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={7682d5eb-f00e-44f1-8ca2-99d08b1cd607} aComponent={VirtualBoxWrap} aText={The object is not ready}, preserve=false aResultDetail=0
+03:26:19.892154 main     VirtualBox: object deleted

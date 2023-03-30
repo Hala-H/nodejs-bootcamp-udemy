@@ -1,0 +1,32 @@
+00:00:02.015836 VirtualBox GUI VM Selector Window 6.1.26 r145957 win.amd64 (Jul 28 2021 17:15:09) release log
+00:00:02.015839 Log opened 2021-09-20T06:54:11.091349500Z
+00:00:02.015839 Build Type: release
+00:00:02.015843 OS Product: Windows 10
+00:00:02.015844 OS Release: 10.0.19043
+00:00:02.015845 OS Service Pack: 
+00:00:02.027266 DMI Product Name: Swift SF314-58
+00:00:02.031280 DMI Product Version: V1.08
+00:00:02.031296 Firmware type: UEFI
+00:00:02.031538 Secure Boot: VERR_PRIVILEGE_NOT_HELD
+00:00:02.031551 Host RAM: 8030MB (7.8GB) total, 3298MB (3.2GB) available
+00:00:02.031555 Executable: C:\Program Files\Oracle\VirtualBox\VirtualBox.exe
+00:00:02.031555 Process ID: 7956
+00:00:02.031556 Package type: WINDOWS_64BITS_GENERIC
+00:00:02.031682 Qt version: 5.6.2
+00:00:02.068889 GUI: UIMediumEnumerator: Medium-enumeration started...
+00:00:02.800982 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:05:18.575179 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:06:36.716406 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:06:36.770953 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:29:34.648835 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:29:36.437239 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:29:36.505935 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:29:36.546540 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:29:36.596908 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:29:36.686257 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:29:38.175548 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:29:40.085113 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:29:40.154394 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:39:01.962947 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:39:12.209341 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:39:13.305818 GUI: UIMediumEnumerator: Medium-enumeration finished!
